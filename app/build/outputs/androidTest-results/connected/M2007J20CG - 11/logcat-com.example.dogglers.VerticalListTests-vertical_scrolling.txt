@@ -1,0 +1,850 @@
+06-21 15:14:08.666 19732 19756 I TestRunner: started: vertical_scrolling(com.example.dogglers.VerticalListTests)
+06-21 15:14:08.677 19732 19756 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+06-21 15:14:08.685  1705  1869 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }
+06-21 15:14:08.685  1705  1869 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+06-21 15:14:08.685  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+06-21 15:14:08.685  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+06-21 15:14:08.685  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+06-21 15:14:08.685  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+06-21 15:14:08.685  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+06-21 15:14:08.685  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+06-21 15:14:08.685  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+06-21 15:14:08.685  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+06-21 15:14:08.685  1705  1869 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+06-21 15:14:08.685  1705  1869 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-21 15:14:08.685  1705  1869 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:236)
+06-21 15:14:08.685  1705  1869 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-21 15:14:08.685  1705  1869 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:45)
+06-21 15:14:08.685  1705  1869 D EventSequenceValidator: inc AccIntentStartedEvents to 8
+06-21 15:14:08.685  1705  4492 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.miservice, com.xiaomi.calendar, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.miui.video, com.miui.videoplayer, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.mi.android.globallauncher-poco, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi, com.tencent.tetris, com.sukhavati.gotoplaying.bubble.BubbleShooter.mint, com.block.puzzle.game.hippo.mi, com.youzu.bs.mi, com.baidu.BaiduMap, com.google.android.googlequicksearchbox, com.appsomniacs.da2, com.android.stk, com.feiyu.carrot3.mi, com.popcap.pvz2cthdxm, com.mxtech.videoplayer.ad, cn.cisc, com.kiloo.subwaysurf, com.cncyj.mostbrain, pdf.tap.scanner, com.og.ttddz.mi, com.ximalaya.ting.lite, com.google.android.apps.podcasts, com.google.android.apps.googleassistant, com.netease.onmyoji.mi, com.netease.onmyoji.bili, com.netease.mrzh.mi, com.netease.mrzh.bili, com.tencent.tmgp.yys.zqb, com.google.android.gm, com.google.android.calendar, com.android.chrome, com.google.android.apps.youtube.music, com.netease.pes.huawei, com.netease.pes.mi, com.netease.pes.bili, com.flyfish.supermario, com.picsart.studio, com.netease.dwrg.mi, com.netease.dwrg.bili, com.netease.dwrg.nearme.gamecenter, com.netease.dwrg, com.netease.dwrg.huawei, com.tencent.tmgp.dwrg, com.netease.dwrg.m4399, com.netease.dwrg.mz, com.netease.dwrg.aligames, com.netease.dwrg.baidu, com.netease.dwrg.qihoo, com.moji.mjweather, com.tencent.tmgp.kof98, com.netease.onmyoji, com.taobao.idlefish, com.ledou.mhhy.mi, com.hzfy.ddzbs.mi, com.qsmy.walkmonkey, com.fy.bzzbc.mi, com.dw.xprqj.mi, com.miui.accessibility, com.ymt.nbaftx.mi]
+06-21 15:14:08.686   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-21 15:14:08.686   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-21 15:14:08.687   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:08.687   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:08.687   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:08.687   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:08.687   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:08.687   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:08.688   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:08.688   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:08.688   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:08.688   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:08.688   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:08.688   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:08.688   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:08.688   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:08.688   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=1
+06-21 15:14:08.688   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:08.688   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:08.688   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:08.688   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:08.688   972   972 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:08.688   972   972 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:08.688   972   972 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.example.dogglers feature:AppClassifier feedback = 0
+06-21 15:14:08.688   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-21 15:14:08.688   972  1014 I ANDR-PERF-LM: hintType: 2
+06-21 15:14:08.688   972  1014 I ANDR-PERF-LM: isPrimary = 0
+06-21 15:14:08.688   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 2,com.example.dogglers,-1,1705,4492)
+06-21 15:14:08.688   972  1014 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-21 15:14:08.688   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:08.688   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:08.688   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:08.689   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:08.689   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:08.689   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:08.689   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:08.689   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:08.689   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:08.689   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-21 15:14:08.689   972  1014 I ANDR-PERF-LM: hintType: 3
+06-21 15:14:08.689   972  1014 I ANDR-PERF-LM: isPrimary = 0
+06-21 15:14:08.689   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 3,com.example.dogglers,-1,1705,4492)
+06-21 15:14:08.689   972  1014 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-21 15:14:08.689   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:08.689   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:08.689   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:08.689  1705  4492 E ANDR-PERF-JNI: com_qualcomm_qtiperformance_native_perf_io_prefetch_start
+06-21 15:14:08.691   970   993 E ANDR-IOP: io prefetch is disabled
+06-21 15:14:08.693   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:08.693   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:08.693   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:08.693   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:08.694   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:08.694   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:08.694   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:08.694   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:08.694   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:08.694   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:08.694   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:08.694   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:08.694   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=1
+06-21 15:14:08.694   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:08.694   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:08.694   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:08.694   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:08.694   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:08.693 18729 18729 W TcmReceiver: type=1400 audit(0.0:3078742): avc: denied { write } for name="tcm" dev="tmpfs" ino=15177 scontext=u:r:theme:s0 tcontext=u:object_r:vendor_dpmtcm_socket:s0 tclass=sock_file permissive=0
+06-21 15:14:08.698  1705  4492 D CompatibilityInfo: mCompatibilityFlags - 0
+06-21 15:14:08.699  1705  4492 D CompatibilityInfo: applicationDensity - 440
+06-21 15:14:08.699  1705  4492 D CompatibilityInfo: applicationScale - 1.0
+06-21 15:14:08.700   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:08.700   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:08.700   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:08.700   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:08.700   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:08.700   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:08.701   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:08.701   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:08.701  1705  4492 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+06-21 15:14:08.701   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:08.701   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:08.701   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:08.701   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:08.701   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:08.701   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:08.701   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:08.701   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=1
+06-21 15:14:08.701   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:08.701   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:08.701   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:08.701   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-21 15:14:08.701   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:08.701   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:08.701   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:08.701   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-21 15:14:08.701   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-21 15:14:08.708  1705  1869 D EventSequenceValidator: onActivityLaunched during UNKNOWN.
+06-21 15:14:08.708  1705  1869 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+06-21 15:14:08.708  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+06-21 15:14:08.708  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onActivityLaunched(EventSequenceValidator.java:149)
+06-21 15:14:08.708  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnActivityLaunched(LaunchObserverRegistryImpl.java:157)
+06-21 15:14:08.708  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$UGY1OclnLIQLMEL9B55qjERFf4o(Unknown Source:0)
+06-21 15:14:08.708  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$UGY1OclnLIQLMEL9B55qjERFf4o.accept(Unknown Source:10)
+06-21 15:14:08.708  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+06-21 15:14:08.708  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+06-21 15:14:08.708  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+06-21 15:14:08.708  1705  1869 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+06-21 15:14:08.708  1705  1869 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-21 15:14:08.708  1705  1869 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:236)
+06-21 15:14:08.708  1705  1869 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-21 15:14:08.708  1705  1869 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:45)
+06-21 15:14:08.711   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.xiaomi.discover/com.xiaomi.market.data.AppDownloadService and for client com.mi.android.globallauncher
+06-21 15:14:08.711   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.xiaomi.discover/com.xiaomi.market.data.AppDownloadServiceare :1
+06-21 15:14:08.711   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.mi.android.globallauncherare :3
+06-21 15:14:08.711  1705  1870 D DecorView: createDecorCaptionView windowingMode:1 mWindowMode 1 isFullscreen: true
+06-21 15:14:08.719  1705  4492 D CompatibilityInfo: mCompatibilityFlags - 0
+06-21 15:14:08.719  1705  4492 D CompatibilityInfo: applicationDensity - 440
+06-21 15:14:08.719  1705  4492 D CompatibilityInfo: applicationScale - 1.0
+06-21 15:14:08.720   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.xiaomi.discover/com.xiaomi.market.data.AppDownloadService
+06-21 15:14:08.723 24840 24840 D ScreenElementRoot: pause
+06-21 15:14:08.724  1705  2318 I MiuiNetworkPolicy: updateUidState uid = 10125, uidState = 3
+06-21 15:14:08.725   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-21 15:14:08.725   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-21 15:14:08.725   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:08.725   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:08.725   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:08.725   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:08.725   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:08.726   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:08.726   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:08.726   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:08.726   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:08.726   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:08.726   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:08.726   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:08.727   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:08.727   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:08.727   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:08.727   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:08.728   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:08.728   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:08.728   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-21 15:14:08.728   972  1014 I ANDR-PERF-LM: hintType: 102
+06-21 15:14:08.728   972  1014 I ANDR-PERF-LM: isPrimary = 0
+06-21 15:14:08.728   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.example.dogglers,19732,1705,4406)
+06-21 15:14:08.728   972  1014 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-21 15:14:08.728   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:08.728   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:08.728   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:08.729  1705  4406 D CompatibilityInfo: mCompatibilityFlags - 0
+06-21 15:14:08.729  1705  4406 D CompatibilityInfo: applicationDensity - 440
+06-21 15:14:08.729  1705  4406 D CompatibilityInfo: applicationScale - 1.0
+06-21 15:14:08.729  3914  3959 D AutoInstallService: onForegroundInfoChanged: com.example.dogglers
+06-21 15:14:08.730 20234 20251 I GST     : forePkg: com.example.dogglers, preForePkg: com.mi.android.globallauncher
+06-21 15:14:08.731  6642 18851 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.example.dogglers', mForegroundUid=10387, mForegroundPid=19732, mLastForegroundPackageName='com.mi.android.globallauncher', mLastForegroundUid=10095, mLastForegroundPid=24840, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-21 15:14:08.731 24924 25140 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.example.dogglers', mForegroundUid=10387, mForegroundPid=19732, mLastForegroundPackageName='com.mi.android.globallauncher', mLastForegroundUid=10095, mLastForegroundPid=24840, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-21 15:14:08.732 19257 19289 W ProxyAndroidLoggerBackend: Too many Flogger logs received before configuration. Dropping old logs.
+06-21 15:14:08.732   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:08.733   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:08.733 24924 25140 I GameBoosterService: onForegroundInfoChanged: Cur=com.example.dogglers	 last=com.mi.android.globallauncher
+06-21 15:14:08.733  6642  6763 I ThermalInfoCollector: collectForgroundAppsInfo
+06-21 15:14:08.734 24924 25140 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.example.dogglers', mForegroundUid=10387, mForegroundPid=19732, mLastForegroundPackageName='com.mi.android.globallauncher', mLastForegroundUid=10095, mLastForegroundPid=24840, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-21 15:14:08.734 24924 25140 I GameBoosterService: onForegroundInfoChanged: Exit
+06-21 15:14:08.734 24924 25140 I VideoBoxUtils: isSupportVideoBox: true
+06-21 15:14:08.734 24924 25140 I VideoToolBoxService: onForegroundInfoChanged: Exit Vtb
+06-21 15:14:08.750 10194 10194 D StatusBar: disable<e i a s b h r c!s > disable2<q i n >
+06-21 15:14:08.753 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be93bda in: PRE_ON_CREATE
+06-21 15:14:08.754 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be93bda
+06-21 15:14:08.756  1705  2318 I MiuiNetworkPolicy: updateUidState uid = 10387, uidState = 2
+06-21 15:14:08.764 19732 19732 D DecorView[]: getWindowModeFromSystem  windowmode is 1
+06-21 15:14:08.764 19732 19732 D DecorView: createDecorCaptionView windowingMode:1 mWindowMode 1 isFullscreen: true
+06-21 15:14:08.765 10194 10356 W RenderInspector: DequeueBuffer time out on StatusBar, count=1, avg=11 ms, max=11 ms.
+06-21 15:14:08.766 24840 24840 I RenderVsyncUpdater: All controllers paused.
+06-21 15:14:08.775   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.xiaomi.discover/com.xiaomi.market.data.AppDownloadService and for client com.mi.android.globallauncher
+06-21 15:14:08.775   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.xiaomi.discover/com.xiaomi.market.data.AppDownloadServiceafter removal is 0
+06-21 15:14:08.775   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.mi.android.globallauncherafter removal is 2
+06-21 15:14:08.775   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.xiaomi.discover/com.xiaomi.market.data.AppDownloadService
+06-21 15:14:08.776  1705  2318 I MiuiNetworkPolicy: updateUidState uid = 10125, uidState = 10
+06-21 15:14:08.779 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be93bda in: CREATED
+06-21 15:14:08.780 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be93bda
+06-21 15:14:08.781 10194 10356 W RenderInspector: QueueBuffer time out on StatusBar, count=3, avg=8 ms, max=13 ms.
+06-21 15:14:08.783  1705  2318 I MiuiNetworkPolicy: updateUidState uid = 10125, uidState = 19
+06-21 15:14:08.783 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be93bda in: STARTED
+06-21 15:14:08.784 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be93bda
+06-21 15:14:08.793  1705  4492 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.miservice, com.xiaomi.calendar, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.miui.video, com.miui.videoplayer, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.mi.android.globallauncher-poco, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi, com.tencent.tetris, com.sukhavati.gotoplaying.bubble.BubbleShooter.mint, com.block.puzzle.game.hippo.mi, com.youzu.bs.mi, com.baidu.BaiduMap, com.google.android.googlequicksearchbox, com.appsomniacs.da2, com.android.stk, com.feiyu.carrot3.mi, com.popcap.pvz2cthdxm, com.mxtech.videoplayer.ad, cn.cisc, com.kiloo.subwaysurf, com.cncyj.mostbrain, pdf.tap.scanner, com.og.ttddz.mi, com.ximalaya.ting.lite, com.google.android.apps.podcasts, com.google.android.apps.googleassistant, com.netease.onmyoji.mi, com.netease.onmyoji.bili, com.netease.mrzh.mi, com.netease.mrzh.bili, com.tencent.tmgp.yys.zqb, com.google.android.gm, com.google.android.calendar, com.android.chrome, com.google.android.apps.youtube.music, com.netease.pes.huawei, com.netease.pes.mi, com.netease.pes.bili, com.flyfish.supermario, com.picsart.studio, com.netease.dwrg.mi, com.netease.dwrg.bili, com.netease.dwrg.nearme.gamecenter, com.netease.dwrg, com.netease.dwrg.huawei, com.tencent.tmgp.dwrg, com.netease.dwrg.m4399, com.netease.dwrg.mz, com.netease.dwrg.aligames, com.netease.dwrg.baidu, com.netease.dwrg.qihoo, com.moji.mjweather, com.tencent.tmgp.kof98, com.netease.onmyoji, com.taobao.idlefish, com.ledou.mhhy.mi, com.hzfy.ddzbs.mi, com.qsmy.walkmonkey, com.fy.bzzbc.mi, com.dw.xprqj.mi, com.miui.accessibility, com.ymt.nbaftx.mi]
+06-21 15:14:08.794   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-21 15:14:08.797   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-21 15:14:08.798   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:08.798   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:08.798   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:08.798   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:08.798   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:08.798   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:08.798   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:08.798   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:08.798   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:08.808  1705  4492 D CompatibilityInfo: mCompatibilityFlags - 0
+06-21 15:14:08.808  1705  4492 D CompatibilityInfo: applicationDensity - 440
+06-21 15:14:08.808  1705  4492 D CompatibilityInfo: applicationScale - 1.0
+06-21 15:14:08.812   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:08.812   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:08.812   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:08.812   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:08.812   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:08.812   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:08.813   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:08.813   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:08.813   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:08.813   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:08.813   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:08.813   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:08.813   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-21 15:14:08.813  1705  4492 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+06-21 15:14:08.813   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:08.813   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:08.814   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:08.814   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:08.814   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:08.814   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:08.814   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:08.814   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:08.814   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:08.814   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:08.814   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:08.814   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-21 15:14:08.820 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be93bda in: RESUMED
+06-21 15:14:08.821 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be93bda
+06-21 15:14:08.824 24840 24840 D RecentsImpl: mActivityStateObserver androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity
+06-21 15:14:08.825 24840 25110 D GestureStubView: resetRenderProperty: showGestureStub
+06-21 15:14:08.825 24840 25110 D GestureStubView: showGestureStub
+06-21 15:14:08.825 24840 25110 D GestureStubView: resetRenderProperty: showGestureStub
+06-21 15:14:08.825 24840 25110 D GestureStubView: showGestureStub
+06-21 15:14:08.830 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be93bda in: PAUSED
+06-21 15:14:08.830 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be93bda
+06-21 15:14:08.836  1705  2475 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{970ef25 mode=1 rootTaskId=1 u0 com.mi.android.globallauncher/com.miui.home.launcher.Launcher}(1,1)  to null(0,0)
+06-21 15:14:08.841   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-21 15:14:08.841   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-21 15:14:08.842   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:08.842   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:08.842   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:08.842   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:08.842   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:08.842   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:08.842   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:08.842   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:08.842   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:08.842   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:08.842   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:08.842   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:08.843   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:08.843   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:08.843   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:08.843   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:08.843   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:08.843   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:08.843   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-21 15:14:08.843   972  1014 I ANDR-PERF-LM: hintType: 102
+06-21 15:14:08.843   972  1014 I ANDR-PERF-LM: isPrimary = 0
+06-21 15:14:08.843   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.example.dogglers,19732,1705,4492)
+06-21 15:14:08.843   972  1014 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-21 15:14:08.843   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:08.843   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:08.843   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:08.844  1705  4492 D CompatibilityInfo: mCompatibilityFlags - 0
+06-21 15:14:08.844  1705  4492 D CompatibilityInfo: applicationDensity - 440
+06-21 15:14:08.844  1705  4492 D CompatibilityInfo: applicationScale - 1.0
+06-21 15:14:08.845   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:08.845   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:08.850 24840 25110 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+06-21 15:14:08.858 19257 19289 W ProxyAndroidLoggerBackend: Too many Flogger logs received before configuration. Dropping old logs.
+06-21 15:14:08.865 19257 19301 I Finsky  : [239524] pjp.c(1): Regular flags synced
+06-21 15:14:08.868 10194 10237 D MiuiPhoneStatusBarPolicy: updateManagedProfile: secondSpace = false
+06-21 15:14:08.869 10194 10444 D CommandQueue: setStatus: setStatus: what = 0, action = upate_specail_mode, ext = Bundle[mParcelledData.dataSize=108][pkg = com.example.dogglers[enable_config = false
+06-21 15:14:08.877 19732 19732 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@8a96994 in: PRE_ON_CREATE
+06-21 15:14:08.877 19257 19301 I Finsky  : [239524] pdp.j(3): Writing flags config, size 1.
+06-21 15:14:08.877 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+06-21 15:14:08.879 19257 19301 I Finsky  : [239524] pdp.j(3): Started writing experiment flags into file [4dEVOh7DlClE42ly_19Hs7FqnnFOj9O0dm-zzWqGxeo].
+06-21 15:14:08.887 20489 20489 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+06-21 15:14:08.889 20489 20581 E HwDetectorWithState: (REDACTED) a: %d
+06-21 15:14:08.896 19257 19301 I Finsky  : [239524] pdp.j(17): Finished writing experiment flags into file [4dEVOh7DlClE42ly_19Hs7FqnnFOj9O0dm-zzWqGxeo].
+06-21 15:14:08.899 19732 19732 D DecorView[]: getWindowModeFromSystem  windowmode is 1
+06-21 15:14:08.900 19732 19732 D DecorView: createDecorCaptionView windowingMode:1 mWindowMode 1 isFullscreen: true
+06-21 15:14:08.902   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 5
+06-21 15:14:08.902   982 10464 I chatty  : uid=1000(system) HwBinder:982_4 identical 2 lines
+06-21 15:14:08.902   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 5
+06-21 15:14:08.904  6642  7060 I DisplayFrameSetting: homeToAppEnd pkg=com.example.dogglers
+06-21 15:14:08.914   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.xiaomi.discover/com.xiaomi.market.data.AppDownloadService and for client com.mi.android.globallauncher
+06-21 15:14:08.916   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.xiaomi.discover/com.xiaomi.market.data.AppDownloadServiceare :1
+06-21 15:14:08.916   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.mi.android.globallauncherare :3
+06-21 15:14:08.918  1705  4408 D CompatibilityInfo: mCompatibilityFlags - 0
+06-21 15:14:08.918  1705  4408 D CompatibilityInfo: applicationDensity - 440
+06-21 15:14:08.918  1705  4408 D CompatibilityInfo: applicationScale - 1.0
+06-21 15:14:08.920 19257 19301 I Finsky  : [239524] pjk.g(22): Successfully applied new configurations for package com.google.android.finsky.regular.
+06-21 15:14:08.920   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.xiaomi.discover/com.xiaomi.market.data.AppDownloadService
+06-21 15:14:08.921  1705  2318 I MiuiNetworkPolicy: updateUidState uid = 10125, uidState = 3
+06-21 15:14:08.921 24840 25110 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+06-21 15:14:08.937   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.xiaomi.discover/com.xiaomi.market.data.AppDownloadService and for client com.mi.android.globallauncher
+06-21 15:14:08.937   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.xiaomi.discover/com.xiaomi.market.data.AppDownloadServiceare :1
+06-21 15:14:08.937   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.mi.android.globallauncherare :3
+06-21 15:14:08.942 19732 19732 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@8a96994 in: CREATED
+06-21 15:14:08.943 19732 19732 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.dogglers.VerticalListActivity@8a96994
+06-21 15:14:08.951 19732 19732 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@8a96994 in: STARTED
+06-21 15:14:08.952 19732 19732 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.dogglers.VerticalListActivity@8a96994
+06-21 15:14:08.958   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 6
+06-21 15:14:08.958 19732 19732 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@8a96994 in: RESUMED
+06-21 15:14:08.959   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 6
+06-21 15:14:08.959 19732 19732 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.dogglers.VerticalListActivity@8a96994
+06-21 15:14:08.972   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.xiaomi.discover/com.xiaomi.market.data.AppDownloadService and for client com.mi.android.globallauncher
+06-21 15:14:08.978  1705  2318 I MiuiNetworkPolicy: updateUidState uid = 10186, uidState = 5
+06-21 15:14:08.978  1705  2318 I MiuiNetworkPolicy: updateUidState uid = 10125, uidState = 5
+06-21 15:14:08.978  1705  2318 I MiuiNetworkPolicy: updateUidState uid = 10095, uidState = 5
+06-21 15:14:08.979 15582 15627 I BtGatt.ScanManager: msg.what = 6
+06-21 15:14:08.980 24840 24840 D RecentsImpl: mActivityStateObserver com.example.dogglers.VerticalListActivity
+06-21 15:14:08.982 24840 25110 D GestureStubView: resetRenderProperty: showGestureStub
+06-21 15:14:08.982 24840 25110 D GestureStubView: showGestureStub
+06-21 15:14:08.982 24840 25110 D GestureStubView: resetRenderProperty: showGestureStub
+06-21 15:14:08.982 24840 25110 D GestureStubView: showGestureStub
+06-21 15:14:08.983 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be93bda in: STOPPED
+06-21 15:14:08.983   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.xiaomi.discover/com.xiaomi.market.data.AppDownloadService and for client com.mi.android.globallauncher
+06-21 15:14:08.984   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.xiaomi.discover/com.xiaomi.market.data.AppDownloadServiceafter removal is 0
+06-21 15:14:08.984   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.mi.android.globallauncherafter removal is 2
+06-21 15:14:08.985 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be93bda
+06-21 15:14:08.987   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.xiaomi.discover/com.xiaomi.market.data.AppDownloadService
+06-21 15:14:08.997 24840 25110 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+06-21 15:14:09.001  1705  2318 I MiuiNetworkPolicy: updateUidState uid = 10125, uidState = 10
+06-21 15:14:09.005 24840 25110 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+06-21 15:14:09.022  1705  2318 I MiuiNetworkPolicy: updateUidState uid = 10125, uidState = 19
+06-21 15:14:09.125   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.125   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.125   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:09.125   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:09.125  1705  1900 D ArtManagerInternalImpl: /data/misc/iorapd/com.example.dogglers/1/com.example.dogglers.VerticalListActivity/compiled_traces/compiled_trace.pb doesn't exist
+06-21 15:14:09.126   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:09.126   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:09.126   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:09.128   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 6
+06-21 15:14:09.129   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 6
+06-21 15:14:09.129  1705  1900 I ActivityTaskManager: Displayed com.example.dogglers/.VerticalListActivity: +440ms
+06-21 15:14:09.129   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.129   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.129   972   972 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:09.130   972   972 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:09.130   972   972 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.example.dogglers feature:AppClassifier feedback = 0
+06-21 15:14:09.138  1705  4492 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{c8caa2a mode=1 rootTaskId=6359 u0 com.example.dogglers/com.example.dogglers.VerticalListActivity}(1,1)
+06-21 15:14:09.140  1705  1870 D WindowManager: trim threaded renderer complete
+06-21 15:14:09.145  1705  1869 D EventSequenceValidator: onActivityLaunchFinished during UNKNOWN.
+06-21 15:14:09.145  1705  1869 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+06-21 15:14:09.145  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+06-21 15:14:09.145  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onActivityLaunchFinished(EventSequenceValidator.java:185)
+06-21 15:14:09.145  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnActivityLaunchFinished(LaunchObserverRegistryImpl.java:175)
+06-21 15:14:09.145  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$QcawcFcJtEX4EhYptq_Vb4j368Y(Unknown Source:0)
+06-21 15:14:09.145  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$QcawcFcJtEX4EhYptq_Vb4j368Y.accept(Unknown Source:10)
+06-21 15:14:09.145  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+06-21 15:14:09.145  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+06-21 15:14:09.145  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+06-21 15:14:09.145  1705  1869 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+06-21 15:14:09.145  1705  1869 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-21 15:14:09.145  1705  1869 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:236)
+06-21 15:14:09.145  1705  1869 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-21 15:14:09.145  1705  1869 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:45)
+06-21 15:14:09.145  1705  1869 D EventSequenceValidator: dec AccIntentStartedEvents to 7
+06-21 15:14:09.160   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.160   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.160   972   972 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:09.160   972   972 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:09.160   972   972 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.example.dogglers feature:AppClassifier feedback = 0
+06-21 15:14:09.172 21865 21865 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+06-21 15:14:09.174 21865 21865 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2116 checkRepeatedly = false, unlocked = true
+06-21 15:14:09.174 21865 21865 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1923 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.dogglers fieldId=-1 fieldName=null extras=null}, false)
+06-21 15:14:09.175 21865 21865 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2116 checkRepeatedly = true, unlocked = true
+06-21 15:14:09.197 19732 19732 I ViewInteraction: Performing 'fast swipe' action on view view.getId() is <2131231206/com.example.dogglers:id/vertical_recycler_view>
+06-21 15:14:09.201  1705  2234 D MIUIInput: [MotionEvent] publisher action=0x4, 1244691943, channel 'da0a904 NavigationBar0 (server)'
+06-21 15:14:09.201  1705  2234 D MIUIInput: [MotionEvent] publisher action=0x0, 1244691943, channel 'c8caa2a com.example.dogglers/com.example.dogglers.VerticalListActivity (server)'
+06-21 15:14:09.202   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.203   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.203   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:09.203   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:09.203   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:09.203   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:09.203   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:09.203   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:09.203   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:09.203   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:09.203   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:09.215   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.215   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.215   972   972 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:09.215   972   972 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:09.216   972   972 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.example.dogglers feature:AppClassifier feedback = 0
+06-21 15:14:09.216   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.216   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.216   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:09.216   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:09.216   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:09.216   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:09.216   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:09.217   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.217   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.217   972   972 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:09.217   972   972 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:09.217   972   972 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.example.dogglers feature:AppClassifier feedback = 0
+06-21 15:14:09.365  1705  2234 D MIUIInput: [MotionEvent] publisher action=0x1, 1244692108, channel 'c8caa2a com.example.dogglers/com.example.dogglers.VerticalListActivity (server)'
+06-21 15:14:09.366   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.366   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.366   972   972 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:09.366   972   972 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:09.366   972   972 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.example.dogglers feature:AppClassifier feedback = 0
+06-21 15:14:09.367   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.367   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.367   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:09.367   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:09.367   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:09.367   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:09.367   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:09.368   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.368   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.368   972   972 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:09.368   972   972 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:09.368   972   972 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.example.dogglers feature:AppClassifier feedback = 0
+06-21 15:14:09.368   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.368   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.368   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:09.368   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:09.368   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:09.369   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:09.369   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:09.369   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.369   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.369   972   972 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:09.369   972   972 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:09.369   972   972 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.example.dogglers feature:AppClassifier feedback = 0
+06-21 15:14:09.439  7791 19853 W adbd    : timed out while waiting for FUNCTIONFS_BIND, trying again
+06-21 15:14:09.440  7791 19853 I adbd    : UsbFfs: connection terminated: monitor thread finished
+06-21 15:14:09.440  7791  7791 I adbd    : UsbFfs: already offline
+06-21 15:14:09.440  7791  7791 I adbd    : destroying transport UsbFfs
+06-21 15:14:09.440  7791  7791 I adbd    : UsbFfsConnection being destroyed
+06-21 15:14:09.442 19732 19732 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Faye"
+06-21 15:14:09.449  1705  1869 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }
+06-21 15:14:09.449  1705  1869 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+06-21 15:14:09.449  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+06-21 15:14:09.449  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+06-21 15:14:09.449  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+06-21 15:14:09.449  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+06-21 15:14:09.449  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+06-21 15:14:09.449  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+06-21 15:14:09.449  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+06-21 15:14:09.449  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+06-21 15:14:09.449  1705  1869 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+06-21 15:14:09.449  1705  1869 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-21 15:14:09.449  1705  1869 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:236)
+06-21 15:14:09.449  1705  1869 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-21 15:14:09.449  1705  1869 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:45)
+06-21 15:14:09.449  1705  1869 D EventSequenceValidator: inc AccIntentStartedEvents to 8
+06-21 15:14:09.449  1705  2475 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.miservice, com.xiaomi.calendar, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.miui.video, com.miui.videoplayer, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.mi.android.globallauncher-poco, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi, com.tencent.tetris, com.sukhavati.gotoplaying.bubble.BubbleShooter.mint, com.block.puzzle.game.hippo.mi, com.youzu.bs.mi, com.baidu.BaiduMap, com.google.android.googlequicksearchbox, com.appsomniacs.da2, com.android.stk, com.feiyu.carrot3.mi, com.popcap.pvz2cthdxm, com.mxtech.videoplayer.ad, cn.cisc, com.kiloo.subwaysurf, com.cncyj.mostbrain, pdf.tap.scanner, com.og.ttddz.mi, com.ximalaya.ting.lite, com.google.android.apps.podcasts, com.google.android.apps.googleassistant, com.netease.onmyoji.mi, com.netease.onmyoji.bili, com.netease.mrzh.mi, com.netease.mrzh.bili, com.tencent.tmgp.yys.zqb, com.google.android.gm, com.google.android.calendar, com.android.chrome, com.google.android.apps.youtube.music, com.netease.pes.huawei, com.netease.pes.mi, com.netease.pes.bili, com.flyfish.supermario, com.picsart.studio, com.netease.dwrg.mi, com.netease.dwrg.bili, com.netease.dwrg.nearme.gamecenter, com.netease.dwrg, com.netease.dwrg.huawei, com.tencent.tmgp.dwrg, com.netease.dwrg.m4399, com.netease.dwrg.mz, com.netease.dwrg.aligames, com.netease.dwrg.baidu, com.netease.dwrg.qihoo, com.moji.mjweather, com.tencent.tmgp.kof98, com.netease.onmyoji, com.taobao.idlefish, com.ledou.mhhy.mi, com.hzfy.ddzbs.mi, com.qsmy.walkmonkey, com.fy.bzzbc.mi, com.dw.xprqj.mi, com.miui.accessibility, com.ymt.nbaftx.mi]
+06-21 15:14:09.449   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-21 15:14:09.450   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-21 15:14:09.450   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.450   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.450   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:09.450   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:09.450   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:09.450   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:09.450   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:09.450   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:09.450   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:09.458  1705  2475 D CompatibilityInfo: mCompatibilityFlags - 0
+06-21 15:14:09.458  1705  2475 D CompatibilityInfo: applicationDensity - 440
+06-21 15:14:09.458  1705  2475 D CompatibilityInfo: applicationScale - 1.0
+06-21 15:14:09.460   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.460   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.460   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:09.460   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:09.460   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:09.460   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:09.460   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:09.460   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:09.460   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:09.460   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:09.460   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:09.460   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:09.461  1705  2475 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+06-21 15:14:09.461   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.461   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.461   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:09.461   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:09.461   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:09.461   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:09.461   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:09.461   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:09.461   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:09.461   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:09.461   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:09.464   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-21 15:14:09.464   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-21 15:14:09.469  1705  1869 D EventSequenceValidator: onIntentFailed during UNKNOWN.
+06-21 15:14:09.469  1705  1869 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+06-21 15:14:09.469  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+06-21 15:14:09.469  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentFailed(EventSequenceValidator.java:130)
+06-21 15:14:09.469  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentFailed(LaunchObserverRegistryImpl.java:147)
+06-21 15:14:09.469  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$KukKmVpn5W_1xSV6Dnp8wW2H2Ks(Unknown Source:0)
+06-21 15:14:09.469  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$KukKmVpn5W_1xSV6Dnp8wW2H2Ks.accept(Unknown Source:2)
+06-21 15:14:09.469  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:264)
+06-21 15:14:09.469  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+06-21 15:14:09.469  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+06-21 15:14:09.469  1705  1869 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+06-21 15:14:09.469  1705  1869 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-21 15:14:09.469  1705  1869 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:236)
+06-21 15:14:09.469  1705  1869 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-21 15:14:09.469  1705  1869 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:45)
+06-21 15:14:09.470  1705  1869 D EventSequenceValidator: dec AccIntentStartedEvents to 7
+06-21 15:14:09.472 19732 19732 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@8a96994 in: PAUSED
+06-21 15:14:09.472 19732 19732 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.dogglers.VerticalListActivity@8a96994
+06-21 15:14:09.473   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-21 15:14:09.473   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-21 15:14:09.473   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.473   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.473   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:09.473   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:09.473   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:09.474   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:09.474   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:09.474   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:09.474   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:09.474   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:09.474   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:09.474   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:09.475   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.475   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.475   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:09.475   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:09.475   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:09.475   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:09.475   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-21 15:14:09.475   972  1014 I ANDR-PERF-LM: hintType: 102
+06-21 15:14:09.475   972  1014 I ANDR-PERF-LM: isPrimary = 0
+06-21 15:14:09.475   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.example.dogglers,19732,1705,5178)
+06-21 15:14:09.475   972  1014 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-21 15:14:09.475   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:09.475   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:09.475   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:09.476  1705  5178 D CompatibilityInfo: mCompatibilityFlags - 0
+06-21 15:14:09.476  1705  5178 D CompatibilityInfo: applicationDensity - 440
+06-21 15:14:09.476  1705  5178 D CompatibilityInfo: applicationScale - 1.0
+06-21 15:14:09.476  7791  7798 I adbd    : opening control endpoint /dev/usb-ffs/adb/ep0
+06-21 15:14:09.479  7791  7798 I adbd    : UsbFfsConnection constructed
+06-21 15:14:09.479  1034  1164 I mi_thermald: special_target_modify: set generic device battery to 9
+06-21 15:14:09.479   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:09.479  1034  1164 I mi_thermald: generic_set_level: set generic device battery to 9
+06-21 15:14:09.479   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:09.481  7791 19886 I adbd    : UsbFfs-monitor thread spawned
+06-21 15:14:09.492 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2e78398 in: PRE_ON_CREATE
+06-21 15:14:09.493 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2e78398
+06-21 15:14:09.495  1705  5178 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{c8caa2a mode=1 rootTaskId=6359 u0 com.example.dogglers/com.example.dogglers.VerticalListActivity}(1,1)  to null(0,0)
+06-21 15:14:09.501 19732 19732 D DecorView[]: getWindowModeFromSystem  windowmode is 1
+06-21 15:14:09.501 19732 19732 D DecorView: createDecorCaptionView windowingMode:1 mWindowMode 1 isFullscreen: true
+06-21 15:14:09.504 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2e78398 in: CREATED
+06-21 15:14:09.504 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2e78398
+06-21 15:14:09.506 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2e78398 in: STARTED
+06-21 15:14:09.507 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2e78398
+06-21 15:14:09.510 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2e78398 in: RESUMED
+06-21 15:14:09.511 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2e78398
+06-21 15:14:09.519 24840 24840 D RecentsImpl: mActivityStateObserver androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+06-21 15:14:09.521 24840 25110 D GestureStubView: resetRenderProperty: showGestureStub
+06-21 15:14:09.521 24840 25110 D GestureStubView: showGestureStub
+06-21 15:14:09.522 24840 25110 D GestureStubView: resetRenderProperty: showGestureStub
+06-21 15:14:09.522 24840 25110 D GestureStubView: showGestureStub
+06-21 15:14:09.542 24840 25110 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+06-21 15:14:09.552 24840 25110 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+06-21 15:14:09.562   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.562   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.562   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:09.562   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:09.562   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:09.562   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:09.562   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:09.563  1705  1900 I ActivityTaskManager: Displayed com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +113ms
+06-21 15:14:09.563   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.563   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.563   972   972 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:09.563   972   972 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:09.563   972   972 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.example.dogglers feature:AppClassifier feedback = 0
+06-21 15:14:09.567 10194 10237 D MiuiPhoneStatusBarPolicy: updateManagedProfile: secondSpace = false
+06-21 15:14:09.574  1705  5178 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{809ea71 mode=1 rootTaskId=6359 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}(1,1)
+06-21 15:14:09.601   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-21 15:14:09.601   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-21 15:14:09.602   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-21 15:14:09.603   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 8
+06-21 15:14:09.603   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 8
+06-21 15:14:09.608  1705  1869 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }
+06-21 15:14:09.608  1705  1869 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+06-21 15:14:09.608  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+06-21 15:14:09.608  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+06-21 15:14:09.608  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+06-21 15:14:09.608  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+06-21 15:14:09.608  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+06-21 15:14:09.608  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+06-21 15:14:09.608  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+06-21 15:14:09.608  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+06-21 15:14:09.608  1705  1869 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+06-21 15:14:09.608  1705  1869 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-21 15:14:09.608  1705  1869 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:236)
+06-21 15:14:09.608  1705  1869 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-21 15:14:09.608  1705  1869 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:45)
+06-21 15:14:09.608  1705  1869 D EventSequenceValidator: inc AccIntentStartedEvents to 8
+06-21 15:14:09.608  1705  2475 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.miservice, com.xiaomi.calendar, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.miui.video, com.miui.videoplayer, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.mi.android.globallauncher-poco, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi, com.tencent.tetris, com.sukhavati.gotoplaying.bubble.BubbleShooter.mint, com.block.puzzle.game.hippo.mi, com.youzu.bs.mi, com.baidu.BaiduMap, com.google.android.googlequicksearchbox, com.appsomniacs.da2, com.android.stk, com.feiyu.carrot3.mi, com.popcap.pvz2cthdxm, com.mxtech.videoplayer.ad, cn.cisc, com.kiloo.subwaysurf, com.cncyj.mostbrain, pdf.tap.scanner, com.og.ttddz.mi, com.ximalaya.ting.lite, com.google.android.apps.podcasts, com.google.android.apps.googleassistant, com.netease.onmyoji.mi, com.netease.onmyoji.bili, com.netease.mrzh.mi, com.netease.mrzh.bili, com.tencent.tmgp.yys.zqb, com.google.android.gm, com.google.android.calendar, com.android.chrome, com.google.android.apps.youtube.music, com.netease.pes.huawei, com.netease.pes.mi, com.netease.pes.bili, com.flyfish.supermario, com.picsart.studio, com.netease.dwrg.mi, com.netease.dwrg.bili, com.netease.dwrg.nearme.gamecenter, com.netease.dwrg, com.netease.dwrg.huawei, com.tencent.tmgp.dwrg, com.netease.dwrg.m4399, com.netease.dwrg.mz, com.netease.dwrg.aligames, com.netease.dwrg.baidu, com.netease.dwrg.qihoo, com.moji.mjweather, com.tencent.tmgp.kof98, com.netease.onmyoji, com.taobao.idlefish, com.ledou.mhhy.mi, com.hzfy.ddzbs.mi, com.qsmy.walkmonkey, com.fy.bzzbc.mi, com.dw.xprqj.mi, com.miui.accessibility, com.ymt.nbaftx.mi]
+06-21 15:14:09.609   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-21 15:14:09.609   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-21 15:14:09.609   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.609   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.609   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:09.609   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:09.609   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:09.609   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:09.609   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:09.609   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:09.609   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:09.614  1705  2475 D CompatibilityInfo: mCompatibilityFlags - 0
+06-21 15:14:09.614  1705  2475 D CompatibilityInfo: applicationDensity - 440
+06-21 15:14:09.614  1705  2475 D CompatibilityInfo: applicationScale - 1.0
+06-21 15:14:09.615   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:09.615   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.615   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.615   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:09.615   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:09.615   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:09.615   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:09.615   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:09.615   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:09.615   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:09.615   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:09.615   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:09.616  1705  2475 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+06-21 15:14:09.616   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.616   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.616   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:09.616   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-21 15:14:09.616   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:09.616   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:09.616   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:09.616   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:09.616   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:09.616   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:09.616   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:09.616   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:09.617   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-21 15:14:09.622  1705  1869 D EventSequenceValidator: onIntentFailed during UNKNOWN.
+06-21 15:14:09.622  1705  1869 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+06-21 15:14:09.622  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+06-21 15:14:09.622  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentFailed(EventSequenceValidator.java:130)
+06-21 15:14:09.622  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentFailed(LaunchObserverRegistryImpl.java:147)
+06-21 15:14:09.622  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$KukKmVpn5W_1xSV6Dnp8wW2H2Ks(Unknown Source:0)
+06-21 15:14:09.622  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$KukKmVpn5W_1xSV6Dnp8wW2H2Ks.accept(Unknown Source:2)
+06-21 15:14:09.622  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:264)
+06-21 15:14:09.622  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+06-21 15:14:09.622  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+06-21 15:14:09.622  1705  1869 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+06-21 15:14:09.622  1705  1869 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-21 15:14:09.622  1705  1869 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:236)
+06-21 15:14:09.622  1705  1869 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-21 15:14:09.622  1705  1869 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:45)
+06-21 15:14:09.622  1705  1869 D EventSequenceValidator: dec AccIntentStartedEvents to 7
+06-21 15:14:09.627 21865 21865 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+06-21 15:14:09.628 21865 21865 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2116 checkRepeatedly = false, unlocked = true
+06-21 15:14:09.628 21865 21865 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1923 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.dogglers fieldId=-1 fieldName=null extras=null}, false)
+06-21 15:14:09.629 21865 21865 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2116 checkRepeatedly = true, unlocked = true
+06-21 15:14:09.648   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.648   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.648   972   972 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:09.648   972   972 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:09.648   972   972 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.example.dogglers feature:AppClassifier feedback = 0
+06-21 15:14:09.664 19732 19732 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@8a96994 in: STOPPED
+06-21 15:14:09.665 19732 19732 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.dogglers.VerticalListActivity@8a96994
+06-21 15:14:09.667 19732 19732 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@8a96994 in: DESTROYED
+06-21 15:14:09.667 19732 19732 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+06-21 15:14:09.674   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-21 15:14:09.674   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-21 15:14:09.678   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-21 15:14:09.679   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-21 15:14:09.679   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-21 15:14:09.681   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 8
+06-21 15:14:09.681   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 8
+06-21 15:14:09.684 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2e78398 in: PAUSED
+06-21 15:14:09.684 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2e78398
+06-21 15:14:09.686   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-21 15:14:09.686   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-21 15:14:09.686   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.686   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.686   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:09.686   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:09.686   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:09.686   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:09.686   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:09.686   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:09.686   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:09.686   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:09.686   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:09.686   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:09.688   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.688   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.688   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:09.688   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:09.689   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:09.689   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:09.689  1705  4492 D CompatibilityInfo: mCompatibilityFlags - 0
+06-21 15:14:09.689  1705  4492 D CompatibilityInfo: applicationDensity - 440
+06-21 15:14:09.689  1705  4492 D CompatibilityInfo: applicationScale - 1.0
+06-21 15:14:09.690   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-21 15:14:09.690   972  1014 I ANDR-PERF-LM: hintType: 102
+06-21 15:14:09.690   972  1014 I ANDR-PERF-LM: isPrimary = 0
+06-21 15:14:09.690   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.example.dogglers,19732,1705,4492)
+06-21 15:14:09.690   972  1014 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-21 15:14:09.690   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:09.690   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:09.690   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:09.691   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:09.692   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:09.701 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be93bda in: DESTROYED
+06-21 15:14:09.701 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be93bda
+06-21 15:14:09.703   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-21 15:14:09.703   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-21 15:14:09.703  1705  4409 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{809ea71 mode=1 rootTaskId=6359 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}(1,1)  to null(0,0)
+06-21 15:14:09.703 18729 18729 W TcmReceiver: type=1400 audit(0.0:3078743): avc: denied { write } for name="tcm" dev="tmpfs" ino=15177 scontext=u:r:theme:s0 tcontext=u:object_r:vendor_dpmtcm_socket:s0 tclass=sock_file permissive=0
+06-21 15:14:09.709 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9df072f in: PRE_ON_CREATE
+06-21 15:14:09.710 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9df072f
+06-21 15:14:09.719 19732 19732 D DecorView[]: getWindowModeFromSystem  windowmode is 1
+06-21 15:14:09.719 19732 19732 D DecorView: createDecorCaptionView windowingMode:1 mWindowMode 1 isFullscreen: true
+06-21 15:14:09.723 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9df072f in: CREATED
+06-21 15:14:09.723 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9df072f
+06-21 15:14:09.725 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9df072f in: STARTED
+06-21 15:14:09.725 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9df072f
+06-21 15:14:09.728 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9df072f in: RESUMED
+06-21 15:14:09.729 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9df072f
+06-21 15:14:09.739 24840 24840 D RecentsImpl: mActivityStateObserver androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+06-21 15:14:09.741 24840 25110 D GestureStubView: resetRenderProperty: showGestureStub
+06-21 15:14:09.741 24840 25110 D GestureStubView: showGestureStub
+06-21 15:14:09.742 24840 25110 D GestureStubView: resetRenderProperty: showGestureStub
+06-21 15:14:09.742 24840 25110 D GestureStubView: showGestureStub
+06-21 15:14:09.757 24840 25110 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+06-21 15:14:09.774 24840 25110 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+06-21 15:14:09.796   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.796   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.796   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:09.796   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:09.796   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:09.796   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:09.796   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:09.798  1705  1900 I ActivityTaskManager: Displayed com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +188ms
+06-21 15:14:09.799   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.799   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.799   972   972 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:09.799   972   972 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:09.799   972   972 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.example.dogglers feature:AppClassifier feedback = 0
+06-21 15:14:09.812  1705  4409 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{f41a18c mode=1 rootTaskId=6359 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}(1,1)
+06-21 15:14:09.814 10194 10237 D MiuiPhoneStatusBarPolicy: updateManagedProfile: secondSpace = false
+06-21 15:14:09.840  1705  1714 I system_server: Background young concurrent copying GC freed 188463(14MB) AllocSpace objects, 122(2164KB) LOS objects, 12% free, 108MB/123MB, paused 715us total 103.678ms
+06-21 15:14:09.848  1705  1716 W System  : A resource failed to call release.
+06-21 15:14:09.849  1705  1716 I chatty  : uid=1000(system) FinalizerDaemon identical 14 lines
+06-21 15:14:09.849  1705  1716 W System  : A resource failed to call release.
+06-21 15:14:09.849   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.849   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.849   972   972 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:09.849  1705  1716 W System  : A resource failed to call release.
+06-21 15:14:09.849  1705  1716 W System  : A resource failed to call release.
+06-21 15:14:09.850   972   972 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:09.850  1705  1716 W System  : A resource failed to call release.
+06-21 15:14:09.850   972   972 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.example.dogglers feature:AppClassifier feedback = 0
+06-21 15:14:09.850  1705  1716 W System  : A resource failed to call release.
+06-21 15:14:09.853  1705  1716 I chatty  : uid=1000(system) FinalizerDaemon identical 14 lines
+06-21 15:14:09.853  1705  1716 W System  : A resource failed to call release.
+06-21 15:14:09.866   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-21 15:14:09.866   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-21 15:14:09.867   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-21 15:14:09.868   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 8
+06-21 15:14:09.868   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 8
+06-21 15:14:09.888  1705  2475 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+06-21 15:14:09.888   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-21 15:14:09.888   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.888   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.888   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:09.888   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:09.889   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:09.889   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:09.889   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:09.889   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:09.889   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:09.889   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:09.889   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:09.889   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-21 15:14:09.899 24840 24840 D EventBus: No subscribers registered for event class com.miui.home.recents.messages.TaskSnapshotChangedEvent
+06-21 15:14:09.899 24840 24840 D EventBus: No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+06-21 15:14:09.903 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2e78398 in: STOPPED
+06-21 15:14:09.904 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2e78398
+06-21 15:14:09.906 21865 21865 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+06-21 15:14:09.907 21865 21865 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2116 checkRepeatedly = false, unlocked = true
+06-21 15:14:09.907 21865 21865 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1923 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.dogglers fieldId=-1 fieldName=null extras=null}, false)
+06-21 15:14:09.908 21865 21865 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2116 checkRepeatedly = true, unlocked = true
+06-21 15:14:09.908 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2e78398 in: DESTROYED
+06-21 15:14:09.909 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2e78398
+06-21 15:14:09.913  1705  4473 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{f41a18c mode=1 rootTaskId=6359 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}(1,1)  to null(0,0)
+06-21 15:14:09.920   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-21 15:14:09.920   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-21 15:14:09.921 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9df072f in: PAUSED
+06-21 15:14:09.922 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9df072f
+06-21 15:14:09.923   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-21 15:14:09.923   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-21 15:14:09.925   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:09.925   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:09.925   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:09.925   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:09.925   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:09.925   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:09.925   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:09.925   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-21 15:14:09.926   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:09.926   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:09.926   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:09.926   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 5
+06-21 15:14:09.926   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 5
+06-21 15:14:09.926   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:09.928   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:09.930  3914  3959 D AutoInstallService: onForegroundInfoChanged: com.mi.android.globallauncher
+06-21 15:14:09.930  6642 18851 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.mi.android.globallauncher', mForegroundUid=10095, mForegroundPid=24840, mLastForegroundPackageName='com.example.dogglers', mLastForegroundUid=10387, mLastForegroundPid=19732, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-21 15:14:09.931 24924 25140 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.mi.android.globallauncher', mForegroundUid=10095, mForegroundPid=24840, mLastForegroundPackageName='com.example.dogglers', mLastForegroundUid=10387, mLastForegroundPid=19732, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-21 15:14:09.931 20234 20251 I GST     : forePkg: com.mi.android.globallauncher, preForePkg: com.example.dogglers
+06-21 15:14:09.931  6642  6763 I ThermalInfoCollector: collectForgroundAppsInfo
+06-21 15:14:09.932 24924 25140 I GameBoosterService: onForegroundInfoChanged: Cur=com.mi.android.globallauncher	 last=com.example.dogglers
+06-21 15:14:09.932 24924 25140 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.mi.android.globallauncher', mForegroundUid=10095, mForegroundPid=24840, mLastForegroundPackageName='com.example.dogglers', mLastForegroundUid=10387, mLastForegroundPid=19732, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-21 15:14:09.933 24924 25140 I GameBoosterService: onForegroundInfoChanged: Exit
+06-21 15:14:09.934 24924 25140 I VideoBoxUtils: isSupportVideoBox: true
+06-21 15:14:09.934 24924 25140 I VideoToolBoxService: onForegroundInfoChanged: Exit Vtb
+06-21 15:14:09.944 19732 19756 I TestRunner: finished: vertical_scrolling(com.example.dogglers.VerticalListTests)

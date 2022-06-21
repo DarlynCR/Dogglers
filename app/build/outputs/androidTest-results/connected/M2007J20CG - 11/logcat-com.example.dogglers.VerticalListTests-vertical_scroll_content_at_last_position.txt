@@ -1,0 +1,1415 @@
+06-21 15:14:06.610 19732 19756 I TestRunner: started: vertical_scroll_content_at_last_position(com.example.dogglers.VerticalListTests)
+06-21 15:14:06.621   982 15684 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-21 15:14:06.621   982 15684 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-21 15:14:06.624 19732 19756 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+06-21 15:14:06.627 19257 19802 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+06-21 15:14:06.628 19257 19802 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+06-21 15:14:06.634  1705  1869 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }
+06-21 15:14:06.634  1705  1869 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+06-21 15:14:06.634  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+06-21 15:14:06.634  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+06-21 15:14:06.634  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+06-21 15:14:06.634  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+06-21 15:14:06.634  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+06-21 15:14:06.634  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+06-21 15:14:06.634  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+06-21 15:14:06.634  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+06-21 15:14:06.634  1705  1869 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+06-21 15:14:06.634  1705  1869 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-21 15:14:06.634  1705  1869 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:236)
+06-21 15:14:06.634  1705  1869 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-21 15:14:06.634  1705  1869 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:45)
+06-21 15:14:06.634  1705  1869 D EventSequenceValidator: inc AccIntentStartedEvents to 8
+06-21 15:14:06.638  1705  4406 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.miservice, com.xiaomi.calendar, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.miui.video, com.miui.videoplayer, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.mi.android.globallauncher-poco, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi, com.tencent.tetris, com.sukhavati.gotoplaying.bubble.BubbleShooter.mint, com.block.puzzle.game.hippo.mi, com.youzu.bs.mi, com.baidu.BaiduMap, com.google.android.googlequicksearchbox, com.appsomniacs.da2, com.android.stk, com.feiyu.carrot3.mi, com.popcap.pvz2cthdxm, com.mxtech.videoplayer.ad, cn.cisc, com.kiloo.subwaysurf, com.cncyj.mostbrain, pdf.tap.scanner, com.og.ttddz.mi, com.ximalaya.ting.lite, com.google.android.apps.podcasts, com.google.android.apps.googleassistant, com.netease.onmyoji.mi, com.netease.onmyoji.bili, com.netease.mrzh.mi, com.netease.mrzh.bili, com.tencent.tmgp.yys.zqb, com.google.android.gm, com.google.android.calendar, com.android.chrome, com.google.android.apps.youtube.music, com.netease.pes.huawei, com.netease.pes.mi, com.netease.pes.bili, com.flyfish.supermario, com.picsart.studio, com.netease.dwrg.mi, com.netease.dwrg.bili, com.netease.dwrg.nearme.gamecenter, com.netease.dwrg, com.netease.dwrg.huawei, com.tencent.tmgp.dwrg, com.netease.dwrg.m4399, com.netease.dwrg.mz, com.netease.dwrg.aligames, com.netease.dwrg.baidu, com.netease.dwrg.qihoo, com.moji.mjweather, com.tencent.tmgp.kof98, com.netease.onmyoji, com.taobao.idlefish, com.ledou.mhhy.mi, com.hzfy.ddzbs.mi, com.qsmy.walkmonkey, com.fy.bzzbc.mi, com.dw.xprqj.mi, com.miui.accessibility, com.ymt.nbaftx.mi]
+06-21 15:14:06.638 19257 19802 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+06-21 15:14:06.639   982 15684 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-21 15:14:06.639   982 15684 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-21 15:14:06.639   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:06.639   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:06.639   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:06.639   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:06.639   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:06.639   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:06.639   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:06.640   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:06.640   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:06.640   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:06.640   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:06.640   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:06.640   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:06.640   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:06.640   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=1
+06-21 15:14:06.640   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:06.640   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:06.640   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:06.640   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:06.640   972   972 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:06.640   972   972 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:06.640   972   972 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.example.dogglers feature:AppClassifier feedback = 0
+06-21 15:14:06.640   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-21 15:14:06.640   972  1014 I ANDR-PERF-LM: hintType: 2
+06-21 15:14:06.640   972  1014 I ANDR-PERF-LM: isPrimary = 0
+06-21 15:14:06.640   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 2,com.example.dogglers,-1,1705,4406)
+06-21 15:14:06.640   972  1014 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-21 15:14:06.640   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:06.640   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:06.640   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:06.641   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:06.641   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:06.641   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:06.641   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:06.641  1705  4406 E ANDR-PERF-JNI: com_qualcomm_qtiperformance_native_perf_io_prefetch_start
+06-21 15:14:06.643 18990 19381 I RcsClientLib: shouldUseCarrierServicesJibeService: true, CarrierServices rcs service found: true
+06-21 15:14:06.644   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:06.644   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:06.644   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:06.644   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:06.644   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:06.644   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:06.645   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:06.645   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:06.645   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=1
+06-21 15:14:06.645   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=2
+06-21 15:14:06.645   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-21 15:14:06.645   972  1014 I ANDR-PERF-LM: hintType: 3
+06-21 15:14:06.645   972  1014 I ANDR-PERF-LM: isPrimary = 0
+06-21 15:14:06.645   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 3,com.example.dogglers,-1,1705,4406)
+06-21 15:14:06.645   972  1014 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-21 15:14:06.645   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:06.645   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:06.645   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=2
+06-21 15:14:06.645   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=1
+06-21 15:14:06.645   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:06.645   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:06.645   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:06.645   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=1
+06-21 15:14:06.645   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:06.645   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:06.645   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:06.645   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:06.645   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:06.652  1705  4406 D CompatibilityInfo: mCompatibilityFlags - 0
+06-21 15:14:06.652  1705  4406 D CompatibilityInfo: applicationDensity - 440
+06-21 15:14:06.652  1705  4406 D CompatibilityInfo: applicationScale - 1.0
+06-21 15:14:06.654   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:06.654   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:06.654   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:06.654   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:06.654   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:06.654  1705  4406 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+06-21 15:14:06.654   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:06.654   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:06.654   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=1
+06-21 15:14:06.654   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=2
+06-21 15:14:06.654   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-21 15:14:06.655   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-21 15:14:06.656   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=1
+06-21 15:14:06.656   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:06.656   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:06.656   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:06.656   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:06.656   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:06.656   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=1
+06-21 15:14:06.656   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:06.656   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:06.656   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:06.656   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-21 15:14:06.656   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:06.656   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:06.656   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:06.665  1705  1870 D DecorView: createDecorCaptionView windowingMode:1 mWindowMode 1 isFullscreen: true
+06-21 15:14:06.663 18729 18729 W TcmReceiver: type=1400 audit(0.0:3078740): avc: denied { write } for name="tcm" dev="tmpfs" ino=15177 scontext=u:r:theme:s0 tcontext=u:object_r:vendor_dpmtcm_socket:s0 tclass=sock_file permissive=0
+06-21 15:14:06.669   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.xiaomi.discover/com.xiaomi.market.data.AppDownloadService and for client com.mi.android.globallauncher
+06-21 15:14:06.669   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.xiaomi.discover/com.xiaomi.market.data.AppDownloadServiceare :1
+06-21 15:14:06.669   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.mi.android.globallauncherare :3
+06-21 15:14:06.686  1705  4406 D CompatibilityInfo: mCompatibilityFlags - 0
+06-21 15:14:06.686  1705  4406 D CompatibilityInfo: applicationDensity - 440
+06-21 15:14:06.686  1705  4406 D CompatibilityInfo: applicationScale - 1.0
+06-21 15:14:06.687 24840 24840 D ScreenElementRoot: pause
+06-21 15:14:06.689   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:06.689   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:06.689   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:06.689   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:06.689   970   993 E ANDR-IOP: io prefetch is disabled
+06-21 15:14:06.690   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:06.690   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:06.690   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:06.690   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:06.690   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:06.690   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:06.690   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:06.691   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.xiaomi.discover/com.xiaomi.market.data.AppDownloadService
+06-21 15:14:06.691   982 15684 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.gms
+06-21 15:14:06.691   982 15684 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.chimera.PersistentDirectBootAwareApiServiceafter removal is 10
+06-21 15:14:06.691   982 15684 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-21 15:14:06.691   982 15684 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-21 15:14:06.691   982 15684 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:06.691   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:06.691   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:06.691   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:06.691   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:06.691   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:06.691   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:06.692   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-21 15:14:06.692   972  1014 I ANDR-PERF-LM: hintType: 102
+06-21 15:14:06.692   972  1014 I ANDR-PERF-LM: isPrimary = 0
+06-21 15:14:06.692   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.example.dogglers,19732,1705,4406)
+06-21 15:14:06.692   972  1014 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-21 15:14:06.692   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:06.692   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:06.692   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:06.692  1705  4406 D CompatibilityInfo: mCompatibilityFlags - 0
+06-21 15:14:06.692  1705  4406 D CompatibilityInfo: applicationDensity - 440
+06-21 15:14:06.693  1705  4406 D CompatibilityInfo: applicationScale - 1.0
+06-21 15:14:06.693  3914  3959 D AutoInstallService: onForegroundInfoChanged: com.example.dogglers
+06-21 15:14:06.693 20234 20251 I GST     : forePkg: com.example.dogglers, preForePkg: com.mi.android.globallauncher
+06-21 15:14:06.695  6642 18851 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.example.dogglers', mForegroundUid=10387, mForegroundPid=19732, mLastForegroundPackageName='com.mi.android.globallauncher', mLastForegroundUid=10095, mLastForegroundPid=24840, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-21 15:14:06.696 24924 25140 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.example.dogglers', mForegroundUid=10387, mForegroundPid=19732, mLastForegroundPackageName='com.mi.android.globallauncher', mLastForegroundUid=10095, mLastForegroundPid=24840, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-21 15:14:06.696  6642  6763 I ThermalInfoCollector: collectForgroundAppsInfo
+06-21 15:14:06.697   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:06.697   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:06.698 24924 25140 I GameBoosterService: onForegroundInfoChanged: Cur=com.example.dogglers	 last=com.mi.android.globallauncher
+06-21 15:14:06.698 24924 25140 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.example.dogglers', mForegroundUid=10387, mForegroundPid=19732, mLastForegroundPackageName='com.mi.android.globallauncher', mLastForegroundUid=10095, mLastForegroundPid=24840, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-21 15:14:06.698 24924 25140 I GameBoosterService: onForegroundInfoChanged: Exit
+06-21 15:14:06.698 24924 25140 I VideoBoxUtils: isSupportVideoBox: true
+06-21 15:14:06.699 24924 25140 I VideoToolBoxService: onForegroundInfoChanged: Exit Vtb
+06-21 15:14:06.707 19257 19802 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+06-21 15:14:06.709   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.ims/.services.RcsService and for client com.google.android.apps.messaging
+06-21 15:14:06.709   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.ims/.services.RcsServiceare :4
+06-21 15:14:06.709   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.apps.messagingare :3
+06-21 15:14:06.710 18990 18990 I RcsClientLib: com.google.android.rcs.client.lifecycle.RcsEngineLifecycleService connected
+06-21 15:14:06.715  1705  2318 I MiuiNetworkPolicy: updateUidState uid = 10125, uidState = 3
+06-21 15:14:06.715  1705  2318 I MiuiNetworkPolicy: updateUidState uid = 10387, uidState = 2
+06-21 15:14:06.718 19257 19802 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+06-21 15:14:06.718   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.CastPersistentBoundBrokerService and for client com.google.android.gms.persistent
+06-21 15:14:06.718   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: unbind service com.google.android.gms/.chimera.CastPersistentBoundBrokerServicenot found
+06-21 15:14:06.718 18990 19024 E TraceManager: Duplicate trace
+06-21 15:14:06.718 18990 19024 E TraceManager: bohm: Starting new trace SharedStorageProvider#call when already associated with a trace. For more help, see http://go/tiktok-tracing#fixing-duplicate-trace-issues
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at bolb.g(PG:6)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at bolb.c(PG:2)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at bolb.b(PG:2)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at boko.j(PG:1)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at acgt.call(PG:7)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at android.content.ContentProvider.call(ContentProvider.java:2471)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at acfh.call(PG:2)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at android.content.ContentProvider$Transport.call(ContentProvider.java:517)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at android.content.ContentResolver.call(ContentResolver.java:2433)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at android.content.ContentResolver.call(ContentResolver.java:2413)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at azbb.h(PG:9)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at azbb.k(PG:3)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at azaz.b(PG:1)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at ahdw.aE(PG:5)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at ahdw.K(PG:2)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at afom.e(PG:1)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at aayz.e(PG:1)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at aays.run(PG:4)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at bolm.run(PG:2)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at bsyf.a(PG:1)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at bsxh.run(PG:4)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at bsyg.run(PG:1)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at bcwb.run(PG:1)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at bcvf.run(PG:2)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at bcvm.run(PG:4)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	at java.lang.Thread.run(Thread.java:923)
+06-21 15:14:06.718 18990 19024 E TraceManager: 	Suppressed: bomf:
+06-21 15:14:06.718 18990 19024 E TraceManager: 		at tk_trace.E2eeStartupTask(Unknown Source:0)
+06-21 15:14:06.718 18990 19024 E TraceManager: 		at tk_trace.StartupHandlerImpl#onAppInteractiveInternal(Unknown Source:0)
+06-21 15:14:06.718 18990 19024 E TraceManager: 		at tk_trace.StartupHandlerImpl App Interactive Delay Timer Fired(Unknown Source:0)
+06-21 15:14:06.721 10194 10194 D StatusBar: disable<e i a s b h r c!s > disable2<q i n >
+06-21 15:14:06.721 19257 19802 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+06-21 15:14:06.721 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a2d4ae2 in: PRE_ON_CREATE
+06-21 15:14:06.721 19257 19802 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+06-21 15:14:06.722 19257 19802 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+06-21 15:14:06.722   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.chimera.CastPersistentBoundBrokerService
+06-21 15:14:06.722   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: destroy service com.google.android.gms/.chimera.CastPersistentBoundBrokerServicenot  found
+06-21 15:14:06.722 24840 24840 I RenderVsyncUpdater: All controllers paused.
+06-21 15:14:06.729   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentBoundBrokerService and for client com.google.android.gms.persistent
+06-21 15:14:06.729   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.chimera.PersistentBoundBrokerServiceafter removal is 3
+06-21 15:14:06.730 13977 27570 I CarrierServices: [170723] RcsEngineImpl.triggerStopRcsStack: Stop Registration for redacted-pii:phone_number[chars:13,last2:64]
+06-21 15:14:06.731 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a2d4ae2
+06-21 15:14:06.733 18990 19006 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10197; state: ENABLED
+06-21 15:14:06.734   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.xiaomi.discover/com.xiaomi.market.data.AppDownloadService and for client com.mi.android.globallauncher
+06-21 15:14:06.734   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.xiaomi.discover/com.xiaomi.market.data.AppDownloadServiceafter removal is 0
+06-21 15:14:06.734   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.mi.android.globallauncherafter removal is 2
+06-21 15:14:06.735  1705  1869 D EventSequenceValidator: onActivityLaunched during UNKNOWN.
+06-21 15:14:06.735  1705  1869 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+06-21 15:14:06.735  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+06-21 15:14:06.735  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onActivityLaunched(EventSequenceValidator.java:149)
+06-21 15:14:06.735  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnActivityLaunched(LaunchObserverRegistryImpl.java:157)
+06-21 15:14:06.735  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$UGY1OclnLIQLMEL9B55qjERFf4o(Unknown Source:0)
+06-21 15:14:06.735  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$UGY1OclnLIQLMEL9B55qjERFf4o.accept(Unknown Source:10)
+06-21 15:14:06.735  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+06-21 15:14:06.735  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+06-21 15:14:06.735  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+06-21 15:14:06.735  1705  1869 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+06-21 15:14:06.735  1705  1869 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-21 15:14:06.735  1705  1869 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:236)
+06-21 15:14:06.735  1705  1869 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-21 15:14:06.735  1705  1869 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:45)
+06-21 15:14:06.737 13977 14233 I CarrierServices: [170708] czq.handleMessage: RCS engine STOP RCS stack
+06-21 15:14:06.738   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.xiaomi.discover/com.xiaomi.market.data.AppDownloadService
+06-21 15:14:06.738  4274  7072 I com.miui.daemo: oneway function results will be dropped but finished with status OK and parcel size 4
+06-21 15:14:06.741  1705  2318 I MiuiNetworkPolicy: updateUidState uid = 10125, uidState = 10
+06-21 15:14:06.746   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.GmsBoundBrokerService and for client com.google.android.gms
+06-21 15:14:06.746   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.chimera.GmsBoundBrokerServiceafter removal is 2
+06-21 15:14:06.748   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.chimera.GmsBoundBrokerService
+06-21 15:14:06.748   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.android.vendingafter removal is 3
+06-21 15:14:06.748   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.gms.persistentafter removal is 6
+06-21 15:14:06.750 18990 19112 I RcsClientLib: Disconnecting RcsEngineLifecycleService
+06-21 15:14:06.751  1705  2318 I MiuiNetworkPolicy: updateUidState uid = 10125, uidState = 19
+06-21 15:14:06.755   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.ims/.services.RcsService and for client com.google.android.apps.messaging
+06-21 15:14:06.758   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.gms.persistent
+06-21 15:14:06.758   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.chimera.PersistentDirectBootAwareApiServiceafter removal is 9
+06-21 15:14:06.760 19732 19732 D DecorView[]: getWindowModeFromSystem  windowmode is 1
+06-21 15:14:06.760 19732 19732 D DecorView: createDecorCaptionView windowingMode:1 mWindowMode 1 isFullscreen: true
+06-21 15:14:06.762   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentBoundBrokerService and for client com.google.android.gms
+06-21 15:14:06.763   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.chimera.PersistentBoundBrokerServiceafter removal is 2
+06-21 15:14:06.763 26692 26692 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.cast.firstparty.START dat=chimera-action:com.google.android.gms.cast.firstparty.START cmp=com.google.android.gms/.chimera.CastPersistentBoundBrokerService }
+06-21 15:14:06.765 10194 10356 W RenderInspector: QueueBuffer time out on StatusBar, count=4, avg=9 ms, max=13 ms.
+06-21 15:14:06.766   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.chimera.PersistentBoundBrokerService
+06-21 15:14:06.766   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.gmsafter removal is 6
+06-21 15:14:06.766   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.android.vendingafter removal is 2
+06-21 15:14:06.775 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a2d4ae2 in: CREATED
+06-21 15:14:06.776 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a2d4ae2
+06-21 15:14:06.777 26692 26692 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.gmscompliance.service.START dat=chimera-action:com.google.android.gms.gmscompliance.service.START cmp=com.google.android.gms/.chimera.PersistentBoundBrokerService }
+06-21 15:14:06.783 23588 23588 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.cryptauth.cryptauthservice.START dat=chimera-action:com.google.android.gms.auth.cryptauth.cryptauthservice.START cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+06-21 15:14:06.799  1705  4458 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{970ef25 mode=1 rootTaskId=1 u0 com.mi.android.globallauncher/com.miui.home.launcher.Launcher}(1,1)  to null(0,0)
+06-21 15:14:06.809 10194 10444 D CommandQueue: setStatus: setStatus: what = 0, action = upate_specail_mode, ext = Bundle[mParcelledData.dataSize=108][pkg = com.example.dogglers[enable_config = false
+06-21 15:14:06.814 10194 10237 D MiuiPhoneStatusBarPolicy: updateManagedProfile: secondSpace = false
+06-21 15:14:06.816 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a2d4ae2 in: STARTED
+06-21 15:14:06.816 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a2d4ae2
+06-21 15:14:06.819 18990 19023 I BugleRcsProvisioning: BugleSystemBindingManager: onCsLibPhenotypeUpdated
+06-21 15:14:06.826 20489 20489 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+06-21 15:14:06.826 20489 20581 E HwDetectorWithState: (REDACTED) a: %d
+06-21 15:14:06.833 13977 14087 I CarrierServices: [170696] buv.k: Reinitialize CSLib Flags: com.google.android.ims.library
+06-21 15:14:06.850  1705  4408 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.miservice, com.xiaomi.calendar, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.miui.video, com.miui.videoplayer, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.mi.android.globallauncher-poco, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi, com.tencent.tetris, com.sukhavati.gotoplaying.bubble.BubbleShooter.mint, com.block.puzzle.game.hippo.mi, com.youzu.bs.mi, com.baidu.BaiduMap, com.google.android.googlequicksearchbox, com.appsomniacs.da2, com.android.stk, com.feiyu.carrot3.mi, com.popcap.pvz2cthdxm, com.mxtech.videoplayer.ad, cn.cisc, com.kiloo.subwaysurf, com.cncyj.mostbrain, pdf.tap.scanner, com.og.ttddz.mi, com.ximalaya.ting.lite, com.google.android.apps.podcasts, com.google.android.apps.googleassistant, com.netease.onmyoji.mi, com.netease.onmyoji.bili, com.netease.mrzh.mi, com.netease.mrzh.bili, com.tencent.tmgp.yys.zqb, com.google.android.gm, com.google.android.calendar, com.android.chrome, com.google.android.apps.youtube.music, com.netease.pes.huawei, com.netease.pes.mi, com.netease.pes.bili, com.flyfish.supermario, com.picsart.studio, com.netease.dwrg.mi, com.netease.dwrg.bili, com.netease.dwrg.nearme.gamecenter, com.netease.dwrg, com.netease.dwrg.huawei, com.tencent.tmgp.dwrg, com.netease.dwrg.m4399, com.netease.dwrg.mz, com.netease.dwrg.aligames, com.netease.dwrg.baidu, com.netease.dwrg.qihoo, com.moji.mjweather, com.tencent.tmgp.kof98, com.netease.onmyoji, com.taobao.idlefish, com.ledou.mhhy.mi, com.hzfy.ddzbs.mi, com.qsmy.walkmonkey, com.fy.bzzbc.mi, com.dw.xprqj.mi, com.miui.accessibility, com.ymt.nbaftx.mi]
+06-21 15:14:06.851   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-21 15:14:06.851   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-21 15:14:06.852   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:06.852   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:06.852   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:06.852   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:06.853   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:06.853   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:06.853   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:06.853   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:06.853   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:06.858  1705  4408 D CompatibilityInfo: mCompatibilityFlags - 0
+06-21 15:14:06.858  1705  4408 D CompatibilityInfo: applicationDensity - 440
+06-21 15:14:06.858  1705  4408 D CompatibilityInfo: applicationScale - 1.0
+06-21 15:14:06.860   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:06.860   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:06.860   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:06.860   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:06.860   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:06.860   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:06.860   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:06.860   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:06.861   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:06.861   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:06.861   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:06.861   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:06.862   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-21 15:14:06.862  1705  4408 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+06-21 15:14:06.863   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:06.863   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:06.863   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:06.863   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:06.863   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-21 15:14:06.863   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:06.863   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:06.863   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:06.863   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:06.863   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:06.863   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:06.863   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:06.862 18990 19002 I .apps.messagin: Background concurrent copying GC freed 32416(1849KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 5885KB/11MB, paused 3.577ms total 294.167ms
+06-21 15:14:06.867 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a2d4ae2 in: RESUMED
+06-21 15:14:06.868 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a2d4ae2
+06-21 15:14:06.875 24840 24840 D RecentsImpl: mActivityStateObserver androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity
+06-21 15:14:06.876 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a2d4ae2 in: PAUSED
+06-21 15:14:06.877 24840 25110 D GestureStubView: resetRenderProperty: showGestureStub
+06-21 15:14:06.877 24840 25110 D GestureStubView: showGestureStub
+06-21 15:14:06.878 24840 25110 D GestureStubView: resetRenderProperty: showGestureStub
+06-21 15:14:06.878 24840 25110 D GestureStubView: showGestureStub
+06-21 15:14:06.878 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a2d4ae2
+06-21 15:14:06.883   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-21 15:14:06.883   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-21 15:14:06.884   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:06.884   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:06.884   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:06.884   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:06.884   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:06.884   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:06.884   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:06.884   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:06.884   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:06.884   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:06.884   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:06.885   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:06.886   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:06.886   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:06.886   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:06.886   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:06.886   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:06.886   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:06.887   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-21 15:14:06.887   972  1014 I ANDR-PERF-LM: hintType: 102
+06-21 15:14:06.887   972  1014 I ANDR-PERF-LM: isPrimary = 0
+06-21 15:14:06.887   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.example.dogglers,19732,1705,2475)
+06-21 15:14:06.887   972  1014 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-21 15:14:06.887   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:06.887   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:06.887   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:06.888  1705  2475 D CompatibilityInfo: mCompatibilityFlags - 0
+06-21 15:14:06.888  1705  2475 D CompatibilityInfo: applicationDensity - 440
+06-21 15:14:06.888  1705  2475 D CompatibilityInfo: applicationScale - 1.0
+06-21 15:14:06.889   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:06.889   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:06.897  7791  7791 I adbd    : New TLS connection [fd=30]
+06-21 15:14:06.898  7791 19819 I adbd    : host-30: write thread spawning
+06-21 15:14:06.904  7791 19818 I adbd    : host-30: read thread spawning
+06-21 15:14:06.904  7791 19818 I adbd    : host-30: read failed: Success
+06-21 15:14:06.904  7791 19818 I adbd    : host-30: connection terminated: read failed
+06-21 15:14:06.904  7791  7791 I adbd    : host-30: already offline
+06-21 15:14:06.904  7791  7791 I adbd    : destroying transport host-30
+06-21 15:14:06.904  7791  7791 I adbd    : BlockingConnectionAdapter(host-30): stopping
+06-21 15:14:06.905  7791  7791 I adbd    : BlockingConnectionAdapter(host-30): stopped
+06-21 15:14:06.905  7791  7791 I adbd    : BlockingConnectionAdapter(host-30): destructing
+06-21 15:14:06.905  7791  7791 I adbd    : BlockingConnectionAdapter(host-30): already stopped
+06-21 15:14:06.907  7791  7791 I adbd    : New TLS connection [fd=30]
+06-21 15:14:06.911  7791  7791 I adbd    : New TLS connection [fd=31]
+06-21 15:14:06.912  7791 19824 I adbd    : host-31: read thread spawning
+06-21 15:14:06.912  7791 19825 I adbd    : host-31: write thread spawning
+06-21 15:14:06.912  7791 19824 I adbd    : host-31: read failed: Success
+06-21 15:14:06.912  7791 19824 I adbd    : host-31: connection terminated: read failed
+06-21 15:14:06.912  7791  7791 I adbd    : host-31: already offline
+06-21 15:14:06.912  7791  7791 I adbd    : destroying transport host-31
+06-21 15:14:06.912  7791  7791 I adbd    : BlockingConnectionAdapter(host-31): stopping
+06-21 15:14:06.915  7791  7791 I adbd    : BlockingConnectionAdapter(host-31): stopped
+06-21 15:14:06.915  7791 19822 I adbd    : host-30: write thread spawning
+06-21 15:14:06.915  7791 19821 I adbd    : host-30: read thread spawning
+06-21 15:14:06.915  7791 19821 I adbd    : host-30: read failed: Success
+06-21 15:14:06.915  7791 19821 I adbd    : host-30: connection terminated: read failed
+06-21 15:14:06.915  7791  7791 I adbd    : New TLS connection [fd=31]
+06-21 15:14:06.915  7791  7791 I adbd    : BlockingConnectionAdapter(): destructing
+06-21 15:14:06.915  7791  7791 I adbd    : BlockingConnectionAdapter(): not started
+06-21 15:14:06.915  7791  7791 I adbd    : host-30: already offline
+06-21 15:14:06.915  7791  7791 I adbd    : destroying transport host-30
+06-21 15:14:06.915  7791  7791 I adbd    : BlockingConnectionAdapter(host-30): stopping
+06-21 15:14:06.918  7791  7791 I adbd    : BlockingConnectionAdapter(host-30): stopped
+06-21 15:14:06.918  7791  7791 I adbd    : BlockingConnectionAdapter(host-31): destructing
+06-21 15:14:06.918  7791  7791 I adbd    : BlockingConnectionAdapter(host-31): already stopped
+06-21 15:14:06.919  7791  7791 I adbd    : BlockingConnectionAdapter(host-30): destructing
+06-21 15:14:06.919  7791  7791 I adbd    : BlockingConnectionAdapter(host-30): already stopped
+06-21 15:14:06.920  7791  7791 I adbd    : New TLS connection [fd=30]
+06-21 15:14:06.922 18990 19023 I BugleRcsEngine: [239491] aoap.b: SystemBindingManager: force P/H Flag update scheduled and start updateBinding
+06-21 15:14:06.923 18990 19023 I Bugle   : RcsAvailabilityUtilForProvisioningEngineV2: onCsLibPhenotypeUpdated
+06-21 15:14:06.924 18990 19023 I BugleRcsProvisioning: RcsProvisioningTrigger: onCsLibPhenotypeUpdated, enableProvisioningTaskInBugle = true
+06-21 15:14:06.925 18990 19023 I BugleRcsProvisioning: RcsProvisioningTrigger: updateRcsAvailability : hint = CSLIB_PHENOTYPE_UPDATE
+06-21 15:14:06.926   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 5
+06-21 15:14:06.926   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 5
+06-21 15:14:06.926 18990 19381 I BugleRcsEngine: [239524] ayip.b: Using MCC based URL
+06-21 15:14:06.920  7791 19827 I adbd    : host-30: write thread spawning
+06-21 15:14:06.929  7791 19826 I adbd    : host-30: read thread spawning
+06-21 15:14:06.930  6642  7060 I DisplayFrameSetting: homeToAppEnd pkg=com.example.dogglers
+06-21 15:14:06.930  7791 19826 I adbd    : host-30: read failed: Success
+06-21 15:14:06.930  7791 19826 I adbd    : host-30: connection terminated: read failed
+06-21 15:14:06.931  7791  7791 I adbd    : host-30: already offline
+06-21 15:14:06.931  7791  7791 I adbd    : destroying transport host-30
+06-21 15:14:06.931  7791  7791 I adbd    : BlockingConnectionAdapter(host-30): stopping
+06-21 15:14:06.931 24840 25110 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+06-21 15:14:06.931 13977 14087 I CarrierServices: [170696] cxp.b: Using MCC based URL
+06-21 15:14:06.931  7791  7791 I adbd    : BlockingConnectionAdapter(host-30): stopped
+06-21 15:14:06.931  7791  7791 I adbd    : BlockingConnectionAdapter(host-30): destructing
+06-21 15:14:06.931  7791  7791 I adbd    : BlockingConnectionAdapter(host-30): already stopped
+06-21 15:14:06.932 10194 10237 D MiuiPhoneStatusBarPolicy: updateManagedProfile: secondSpace = false
+06-21 15:14:06.932 18990 19023 I Bugle   : RcsAvailabilityUtilForProvisioningEngineV2: updateAvailabilityAsync, hint: CSLIB_PHENOTYPE_UPDATE
+06-21 15:14:06.932 18990 19023 I Bugle   : RcsAvailabilityUtilForProvisioningEngineV2: swapAvailabilityUpdater, provisioningTaskInBugle: true, activeRcsAvailabilityUpdater: ahew
+06-21 15:14:06.933 19732 19732 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@9a75a63 in: PRE_ON_CREATE
+06-21 15:14:06.933 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+06-21 15:14:06.933 18990 19023 I BugleRcsProvisioning: RcsAvailabilityUpdaterLocal: updateAvailabilityAsync: scheduling updateRcsAvailability call, hint: CSLIB_PHENOTYPE_UPDATE, enableWelcomePopupWithoutGoogleTos: false, reshowSuccessPopup: false
+06-21 15:14:06.935 18990 19024 I BugleRcsEngine: [239492] axeq.l: Reinitialize CSLib Flags: com.google.android.ims.library
+06-21 15:14:06.935  7791  7791 I adbd    : New TLS connection [fd=30]
+06-21 15:14:06.935 18990 19024 I BugleRcsEngine: [239492] axeq.l: Reinitialize CSLib Flags: com.google.android.ims.library
+06-21 15:14:06.936  7791 19829 I adbd    : host-30: write thread spawning
+06-21 15:14:06.938 18990 19023 W BugleRcsEngine: [239491] axxd.b: [SR]: Single Registration is disabled. Skipping Single Registration capability check for subId: 1
+06-21 15:14:06.939 18990 19023 I BugleRcsProvisioning: RcsProvisioningTrigger: DR is active, initializing DR provisioning. DUAL_REG
+06-21 15:14:06.939 18990 19023 W BugleRcsEngine: [239491] axxd.b: [SR]: Single Registration is disabled. Skipping Single Registration capability check for subId: 1
+06-21 15:14:06.940 18990 19023 E TraceManager: Duplicate trace
+06-21 15:14:06.940 18990 19023 E TraceManager: bohm: Starting new trace SharedStorageProvider#call when already associated with a trace. For more help, see http://go/tiktok-tracing#fixing-duplicate-trace-issues
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at bolb.g(PG:6)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at bolb.c(PG:2)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at bolb.b(PG:2)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at boko.j(PG:1)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at acgt.call(PG:7)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at android.content.ContentProvider.call(ContentProvider.java:2471)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at acfh.call(PG:2)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at android.content.ContentProvider$Transport.call(ContentProvider.java:517)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at android.content.ContentResolver.call(ContentResolver.java:2433)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at android.content.ContentResolver.call(ContentResolver.java:2413)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at azbb.h(PG:9)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at azbb.k(PG:3)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at azaz.b(PG:1)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at ayhc.d(PG:2)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at sfv.run(PG:10)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at bolm.run(PG:2)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at bsyf.a(PG:1)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at bsxh.run(PG:4)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at bsyg.run(PG:1)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at bcwb.run(PG:1)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at bcvf.run(PG:2)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at bcvm.run(PG:4)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	at java.lang.Thread.run(Thread.java:923)
+06-21 15:14:06.940 18990 19023 E TraceManager: 	Suppressed: bomf:
+06-21 15:14:06.940 18990 19023 E TraceManager: 		at tk_trace.PhenotypeHelper#onCsLibPhenotypeChanged(Unknown Source:0)
+06-21 15:14:06.940 18990 19023 E TraceManager: 		at tk_trace.PhenotypeHelper#registerCsLibPhenotype(Unknown Source:0)
+06-21 15:14:06.940 18990 19023 E TraceManager: 		at tk_trace.SimChangeReceiver Receive broadcast(Unknown Source:0)
+06-21 15:14:06.943 18990 19023 I BugleRcsEngine: [239491] sfx.k: Scheduled provisioning task with 0 seconds delay, KEEP policy
+06-21 15:14:06.945 18990 19027 I BugleRcsEngine: [239494] awok.run: SystemBindingManager: SystemBinding enabled: true
+06-21 15:14:06.945 18990 19027 I BugleRcsEngine: [239494] awol.b: System Binding updated
+06-21 15:14:06.946 18990 19094 I BugleRcsEngine: [239510] ayip.b: Using MCC based URL
+06-21 15:14:06.949  1705  2318 I MiuiNetworkPolicy: updateUidState uid = 10186, uidState = 5
+06-21 15:14:06.949  1705  2318 I MiuiNetworkPolicy: updateUidState uid = 10095, uidState = 5
+06-21 15:14:06.949 15582 15627 I BtGatt.ScanManager: msg.what = 6
+06-21 15:14:06.952 19732 19732 D DecorView[]: getWindowModeFromSystem  windowmode is 1
+06-21 15:14:06.952 19732 19732 D DecorView: createDecorCaptionView windowingMode:1 mWindowMode 1 isFullscreen: true
+06-21 15:14:06.954  7791 19828 I adbd    : host-30: read thread spawning
+06-21 15:14:06.955  7791 19828 I adbd    : host-30: read failed: Success
+06-21 15:14:06.955  7791 19828 I adbd    : host-30: connection terminated: read failed
+06-21 15:14:06.955  7791  7791 I adbd    : host-30: already offline
+06-21 15:14:06.955  7791  7791 I adbd    : destroying transport host-30
+06-21 15:14:06.955  7791  7791 I adbd    : BlockingConnectionAdapter(host-30): stopping
+06-21 15:14:06.958  7791  7791 I adbd    : BlockingConnectionAdapter(host-30): stopped
+06-21 15:14:06.958  7791  7791 I adbd    : BlockingConnectionAdapter(host-30): destructing
+06-21 15:14:06.958  7791  7791 I adbd    : BlockingConnectionAdapter(host-30): already stopped
+06-21 15:14:06.958   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.xiaomi.discover/com.xiaomi.market.data.AppDownloadService and for client com.mi.android.globallauncher
+06-21 15:14:06.958   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.xiaomi.discover/com.xiaomi.market.data.AppDownloadServiceare :1
+06-21 15:14:06.958   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.mi.android.globallauncherare :3
+06-21 15:14:06.959 18990 19021 W BugleRcsEngine: [239490] axxd.b: [SR]: Single Registration is disabled. Skipping Single Registration capability check for subId: 1
+06-21 15:14:06.960 13977 14087 I CarrierServices: [170696] cpt.u: ProvisioningEngineManager: onCsLibPhenotypeUpdated, provisioningTaskInBugleEnabled = true, currentProvisioningStrategy = cty
+06-21 15:14:06.961  1705  4473 D CompatibilityInfo: mCompatibilityFlags - 0
+06-21 15:14:06.961  1705  4473 D CompatibilityInfo: applicationDensity - 440
+06-21 15:14:06.961  1705  4473 D CompatibilityInfo: applicationScale - 1.0
+06-21 15:14:06.962   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.xiaomi.discover/com.xiaomi.market.data.AppDownloadService
+06-21 15:14:06.963  1705  2318 I MiuiNetworkPolicy: updateUidState uid = 10125, uidState = 5
+06-21 15:14:06.970 18990 19024 I BugleRcsEngine: [239492] axeq.l: Reinitialize CSLib Flags: com.google.android.ims.library
+06-21 15:14:06.971 18990 19024 I BugleRcsEngine: [239492] axeq.l: Reinitialize CSLib Flags: com.google.android.ims.library
+06-21 15:14:06.974   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.ims
+06-21 15:14:06.974   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiServiceare :10
+06-21 15:14:06.974   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.imsare :1
+06-21 15:14:06.974 18990 19021 E TraceManager: Duplicate trace
+06-21 15:14:06.974 18990 19021 E TraceManager: bohm: Starting new trace SharedStorageProvider#call when already associated with a trace. For more help, see http://go/tiktok-tracing#fixing-duplicate-trace-issues
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at bolb.g(PG:6)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at bolb.c(PG:2)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at bolb.b(PG:2)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at boko.j(PG:1)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at acgt.call(PG:7)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at android.content.ContentProvider.call(ContentProvider.java:2471)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at acfh.call(PG:2)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at android.content.ContentProvider$Transport.call(ContentProvider.java:517)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at android.content.ContentResolver.call(ContentResolver.java:2433)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at android.content.ContentResolver.call(ContentResolver.java:2413)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at azbb.h(PG:9)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at azbb.k(PG:3)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at azaz.b(PG:1)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at ayhc.d(PG:2)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at ayhc.E(PG:1)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at ahew.j(PG:25)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at ahew.i(PG:1)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at ahes.run(Unknown Source:4)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at bolm.run(PG:2)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at bsyf.a(PG:1)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at bsxh.run(PG:4)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at bsyg.run(PG:1)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at bcwb.run(PG:1)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at bcvf.run(PG:2)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at bcvm.run(PG:4)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	at java.lang.Thread.run(Thread.java:923)
+06-21 15:14:06.974 18990 19021 E TraceManager: 	Suppressed: bomf:
+06-21 15:14:06.974 18990 19021 E TraceManager: 		at tk_trace.PhenotypeHelper#onCsLibPhenotypeChanged(Unknown Source:0)
+06-21 15:14:06.974 18990 19021 E TraceManager: 		at tk_trace.PhenotypeHelper#registerCsLibPhenotype(Unknown Source:0)
+06-21 15:14:06.974 18990 19021 E TraceManager: 		at tk_trace.SimChangeReceiver Receive broadcast(Unknown Source:0)
+06-21 15:14:06.975 18990 19021 I BugleRcsProvisioning: RcsAvailabilityUpdaterLocal: [SR]: SingleRegistration configuration, singleRegistrationRcsConfigAvailableAndEnabled: false, simId: redacted-pii:sim_id[chars:20]
+06-21 15:14:06.976 18990 19021 E TraceManager: Duplicate trace
+06-21 15:14:06.976 18990 19021 E TraceManager: bohm: Starting new trace SharedStorageProvider#call when already associated with a trace. For more help, see http://go/tiktok-tracing#fixing-duplicate-trace-issues
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at bolb.g(PG:6)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at bolb.c(PG:2)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at bolb.b(PG:2)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at boko.j(PG:1)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at acgt.call(PG:7)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at android.content.ContentProvider.call(ContentProvider.java:2471)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at acfh.call(PG:2)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at android.content.ContentProvider$Transport.call(ContentProvider.java:517)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at android.content.ContentResolver.call(ContentResolver.java:2433)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at android.content.ContentResolver.call(ContentResolver.java:2413)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at azbb.h(PG:9)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at azbb.k(PG:3)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at azaz.b(PG:1)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at ayhc.d(PG:2)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at ayhc.D(PG:1)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at ahew.j(PG:32)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at ahew.i(PG:1)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at ahes.run(Unknown Source:4)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at bolm.run(PG:2)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at bsyf.a(PG:1)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at bsxh.run(PG:4)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at bsyg.run(PG:1)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at bcwb.run(PG:1)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at bcvf.run(PG:2)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at bcvm.run(PG:4)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	at java.lang.Thread.run(Thread.java:923)
+06-21 15:14:06.976 18990 19021 E TraceManager: 	Suppressed: bomf:
+06-21 15:14:06.976 18990 19021 E TraceManager: 		at tk_trace.PhenotypeHelper#onCsLibPhenotypeChanged(Unknown Source:0)
+06-21 15:14:06.976 18990 19021 E TraceManager: 		at tk_trace.PhenotypeHelper#registerCsLibPhenotype(Unknown Source:0)
+06-21 15:14:06.976 18990 19021 E TraceManager: 		at tk_trace.SimChangeReceiver Receive broadcast(Unknown Source:0)
+06-21 15:14:06.979 18990 19021 E TraceManager: Duplicate trace
+06-21 15:14:06.979 18990 19021 E TraceManager: bohm: Starting new trace SharedStorageProvider#call when already associated with a trace. For more help, see http://go/tiktok-tracing#fixing-duplicate-trace-issues
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at bolb.g(PG:6)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at bolb.c(PG:2)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at bolb.b(PG:2)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at boko.j(PG:1)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at acgt.call(PG:7)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at android.content.ContentProvider.call(ContentProvider.java:2471)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at acfh.call(PG:2)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at android.content.ContentProvider$Transport.call(ContentProvider.java:517)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at android.content.ContentResolver.call(ContentResolver.java:2433)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at android.content.ContentResolver.call(ContentResolver.java:2413)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at azbb.h(PG:9)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at azbb.k(PG:3)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at azaz.b(PG:1)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at ayhc.g(PG:2)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at sfh.b(PG:1)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at ayen.f(PG:4)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at ayen.c(PG:1)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at seq.a(PG:3)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at ahew.j(PG:41)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at ahew.i(PG:1)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at ahes.run(Unknown Source:4)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at bolm.run(PG:2)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at bsyf.a(PG:1)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at bsxh.run(PG:4)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at bsyg.run(PG:1)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at bcwb.run(PG:1)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at bcvf.run(PG:2)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at bcvm.run(PG:4)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	at java.lang.Thread.run(Thread.java:923)
+06-21 15:14:06.979 18990 19021 E TraceManager: 	Suppressed: bomf:
+06-21 15:14:06.979 18990 19021 E TraceManager: 		at tk_trace.PhenotypeHelper#onCsLibPhenotypeChanged(Unknown Source:0)
+06-21 15:14:06.979 18990 19021 E TraceManager: 		at tk_trace.PhenotypeHelper#registerCsLibPhenotype(Unknown Source:0)
+06-21 15:14:06.979 18990 19021 E TraceManager: 		at tk_trace.SimChangeReceiver Receive broadcast(Unknown Source:0)
+06-21 15:14:06.981 18990 19021 I BugleRcsProvisioning: RcsAvailabilityUpdaterLocal: Provisioning Engine subscription{id:1}, simId: redacted-pii:sim_id[chars:20], sipConnectionType: DUAL_REG
+06-21 15:14:06.981 18990 19021 I BugleRcsProvisioning: RcsAvailabilityUpdaterLocal: updateRcsAvailability, currentAvailability: 7, newAvailability: 7, hint: CSLIB_PHENOTYPE_UPDATE
+06-21 15:14:06.983 18990 19021 I BugleRcsProvisioning: RcsProvisioningTrigger: onRcsAvailabilityUpdate : availability is updated to RCS is setup, lastAvailability is RCS is setup, simId hash = 1154233526520896626, isPev3Enabled = true
+06-21 15:14:06.991   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.xiaomi.discover/com.xiaomi.market.data.AppDownloadService and for client com.mi.android.globallauncher
+06-21 15:14:06.991   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.xiaomi.discover/com.xiaomi.market.data.AppDownloadServiceare :1
+06-21 15:14:06.991   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.mi.android.globallauncherare :3
+06-21 15:14:06.992 24840 25110 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+06-21 15:14:06.994 18990 19024 I BugleRcsEngine: [239492] axeq.l: Reinitialize CSLib Flags: com.google.android.ims.library
+06-21 15:14:06.995 18990 19024 I BugleRcsEngine: [239492] axeq.l: Reinitialize CSLib Flags: com.google.android.ims.library
+06-21 15:14:06.996 18990 19024 I BugleEtouffee: EtouffeeStateMachine: Ensuring state machine consistency
+06-21 15:14:06.997   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 6
+06-21 15:14:06.999   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 6
+06-21 15:14:07.000 18990 19024 I BugleEtouffee: EtouffeeStateMachine: onRegistrationUpdate from Tachyon, previousState: REGISTERED_WITH_PREKEYS, newState: REGISTERED_WITH_PREKEYS, reason: STARTUP_ENSURE_CONSISTENCY
+06-21 15:14:07.003 19732 19732 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@9a75a63 in: CREATED
+06-21 15:14:07.005 19732 19732 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.dogglers.VerticalListActivity@9a75a63
+06-21 15:14:07.008 18990 19023 I BugleEtouffee: EtouffeeStateMachine: E2EE provisioning state update, Previous Etouffee status: PROVISIONED, New Etouffee status: PROVISIONED
+06-21 15:14:07.012 18990 19114 D StrictMode: StrictMode policy violation: android.os.strictmode.DiskReadViolation
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1596)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:249)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:166)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:7775)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at libcore.io.IoUtils.canOpenReadOnly(IoUtils.java:275)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at dalvik.system.DexPathList$NativeLibraryElement.findNativeLibrary(DexPathList.java:884)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at dalvik.system.DexPathList.findLibrary(DexPathList.java:595)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at dalvik.system.BaseDexClassLoader.findLibrary(BaseDexClassLoader.java:281)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at java.lang.Runtime.loadLibrary0(Runtime.java:1061)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at java.lang.Runtime.loadLibrary0(Runtime.java:1008)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at java.lang.System.loadLibrary(System.java:1664)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at alqv.a(PG:1)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at abio.<init>(PG:1)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at ablm.a(PG:1)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at ske.h(PG:72)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at ske.b(PG:333)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at bzaq.b(PG:1)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at aayu.a(PG:6)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at bolr.a(PG:2)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at bstu.d(PG:2)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at bstw.run(PG:9)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at bcwb.run(PG:1)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at bcvf.run(PG:2)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at bcvm.run(PG:4)
+06-21 15:14:07.012 18990 19114 D StrictMode: 	at java.lang.Thread.run(Thread.java:923)
+06-21 15:14:07.013   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.xiaomi.discover/com.xiaomi.market.data.AppDownloadService and for client com.mi.android.globallauncher
+06-21 15:14:07.013 18990 19114 D StrictMode: StrictMode policy violation: android.os.strictmode.DiskReadViolation
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1596)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:249)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:166)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:7775)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at libcore.io.IoUtils.canOpenReadOnly(IoUtils.java:275)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at dalvik.system.DexPathList$NativeLibraryElement.findNativeLibrary(DexPathList.java:884)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at dalvik.system.DexPathList.findLibrary(DexPathList.java:595)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at dalvik.system.BaseDexClassLoader.findLibrary(BaseDexClassLoader.java:281)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at java.lang.Runtime.loadLibrary0(Runtime.java:1061)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at java.lang.Runtime.loadLibrary0(Runtime.java:1008)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at java.lang.System.loadLibrary(System.java:1664)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at alqv.a(PG:1)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at abio.<init>(PG:1)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at ablm.a(PG:1)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at ske.h(PG:72)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at ske.b(PG:333)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at bzaq.b(PG:1)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at aaxx.a(PG:4)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at aayu.a(PG:8)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at bolr.a(PG:2)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at bstu.d(PG:2)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at bstw.run(PG:9)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at bcwb.run(PG:1)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at bcvf.run(PG:2)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at bcvm.run(PG:4)
+06-21 15:14:07.013 18990 19114 D StrictMode: 	at java.lang.Thread.run(Thread.java:923)
+06-21 15:14:07.021 18990 19031 I SqlStatement: executing sql stmt: SELECT count(*) FROM sqlite_master WHERE type='table' AND name = ?;
+06-21 15:14:07.022 19732 19732 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@9a75a63 in: STARTED
+06-21 15:14:07.022 18990 19037 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+06-21 15:14:07.024 19732 19732 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.dogglers.VerticalListActivity@9a75a63
+06-21 15:14:07.025   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.xiaomi.discover/com.xiaomi.market.data.AppDownloadService and for client com.mi.android.globallauncher
+06-21 15:14:07.025   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.xiaomi.discover/com.xiaomi.market.data.AppDownloadServiceafter removal is 0
+06-21 15:14:07.025   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.mi.android.globallauncherafter removal is 2
+06-21 15:14:07.031 19732 19732 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@9a75a63 in: RESUMED
+06-21 15:14:07.033 19732 19732 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.dogglers.VerticalListActivity@9a75a63
+06-21 15:14:07.041   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.xiaomi.discover/com.xiaomi.market.data.AppDownloadService
+06-21 15:14:07.042 18990 19031 I SqlStatement: executing sql stmt: SELECT schema_version FROM scytale_05c8a09795063362465d5a48048a079e999c14e00430b6022eb8097da220634203_db_configuration
+06-21 15:14:07.046 18990 19031 I native  : I0000 00:00:1655842447.046751   19031 db_store.cc:98] Loading an existing database with version 14
+06-21 15:14:07.047 18990 19031 I native  : I0000 00:00:1655842447.047033   19031 db_store.cc:504] Checking presence of tables, run_sqlite_master_schema_validation=true, run_per_table_schema_validation=true
+06-21 15:14:07.048 18990 19031 I SqlStatement: executing sql stmt: select tbl_name from sqlite_master WHERE type='table' AND tbl_name LIKE ? ORDER BY name;
+06-21 15:14:07.050 24840 24840 D RecentsImpl: mActivityStateObserver com.example.dogglers.VerticalListActivity
+06-21 15:14:07.052 24840 25110 D GestureStubView: resetRenderProperty: showGestureStub
+06-21 15:14:07.052 24840 25110 D GestureStubView: showGestureStub
+06-21 15:14:07.053 24840 25110 D GestureStubView: resetRenderProperty: showGestureStub
+06-21 15:14:07.053 24840 25110 D GestureStubView: showGestureStub
+06-21 15:14:07.055  1705  2318 I MiuiNetworkPolicy: updateUidState uid = 10125, uidState = 10
+06-21 15:14:07.058 18990 19031 I native  : I0000 00:00:1655842447.058848   19031 db_store.cc:415] Database schema, prefix=scytale_05c8a09795063362465d5a48048a079e999c14e00430b6022eb8097da220634203_
+06-21 15:14:07.059 18990 19031 I SqlStatement: executing sql stmt: select sql from sqlite_master WHERE type='table' AND tbl_name LIKE ? ORDER BY name;
+06-21 15:14:07.060  1705  2318 I MiuiNetworkPolicy: updateUidState uid = 10125, uidState = 19
+06-21 15:14:07.062 18990 19031 I native  : I0000 00:00:1655842447.062772   19031 db_store.cc:436] Database schema=CREATE TABLE scytale_05c8a09795063362465d5a48048a079e999c14e00430b6022eb8097da220634203_db_configuration(single_row INTEGER NOT NULL DEFAULT 1,schema_version INTEGER NOT NULL,PRIMARY KEY(single_row) CHECK(single_row = 1))
+06-21 15:14:07.063 18990 19031 I native  : I0000 00:00:1655842447.063007   19031 db_store.cc:436] Database schema=CREATE TABLE scytale_05c8a09795063362465d5a48048a079e999c14e00430b6022eb8097da220634203_identity_keys(device_id TEXT NOT NULL,identity_key BLOB NOT NULL,revision_timestamp_millis LONG NOT NULL DEFAULT(0),PRIMARY KEY(device_id) )
+06-21 15:14:07.063 18990 19031 I native  : I0000 00:00:1655842447.063162   19031 db_store.cc:436] Database schema=CREATE TABLE scytale_05c8a09795063362465d5a48048a079e999c14e00430b6022eb8097da220634203_prekeys(key_id INTEGER NOT NULL,key_type INTEGER NOT NULL DEFAULT(0),prekey BLOB ,timestamp_millis LONG ,PRIMARY KEY(key_id) )
+06-21 15:14:07.063 18990 19031 I native  : I0000 00:00:1655842447.063261   19031 db_store.cc:436] Database schema=CREATE TABLE scytale_05c8a09795063362465d5a48048a079e999c14e00430b6022eb8097da220634203_received_message_state(message_id TEXT NOT NULL,message_state INTEGER NOT NULL DEFAULT(0),insert_timestamp_millis LONG NOT NULL DEFAULT(0),PRIMARY KEY(message_id) )
+06-21 15:14:07.063 18990 19031 I native  : I0000 00:00:1655842447.063342   19031 db_store.cc:436] Database schema=CREATE TABLE scytale_05c8a09795063362465d5a48048a079e999c14e00430b6022eb8097da220634203_sent_message_digests(message_id TEXT NOT NULL,device_id TEXT NOT NULL,message_digest BLOB NOT NULL,insert_timestamp_millis LONG NOT NULL DEFAULT(0),PRIMARY KEY(message_id, device_id) )
+06-21 15:14:07.063 18990 19031 I native  : I0000 00:00:1655842447.063414   19031 db_store.cc:436] Database schema=CREATE TABLE scytale_05c8a09795063362465d5a48048a079e999c14e00430b6022eb8097da220634203_sessions(device_id TEXT NOT NULL DEFAULT(0),session BLOB ,PRIMARY KEY(device_id) )
+06-21 15:14:07.066 24840 25110 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+06-21 15:14:07.067   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.wearable.service.WearableService and for client com.google.android.apps.messaging
+06-21 15:14:07.067   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.wearable.service.WearableServiceare :1
+06-21 15:14:07.067   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.apps.messagingare :4
+06-21 15:14:07.070 18990 19031 I BugleEtouffee: CryptoV2Provider: Base crypto created
+06-21 15:14:07.071 18990 19031 I SqlStatement: executing sql stmt: SELECT `key_id` FROM `scytale_05c8a09795063362465d5a48048a079e999c14e00430b6022eb8097da220634203_prekeys` WHERE key_type = 0 LIMIT 1
+06-21 15:14:07.074  1705  4473 D CompatibilityInfo: mCompatibilityFlags - 0
+06-21 15:14:07.074  1705  4473 D CompatibilityInfo: applicationDensity - 440
+06-21 15:14:07.074  1705  4473 D CompatibilityInfo: applicationScale - 1.0
+06-21 15:14:07.075   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.wearable.service.WearableService
+06-21 15:14:07.079 19257 19802 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+06-21 15:14:07.081 19257 19301 I Finsky  : [239524] pjk.h(7): Already at the latest configurations for experiment package com.google.android.finsky.stable.
+06-21 15:14:07.081 19257 19301 I Finsky  : [239524] pjk.h(1): Triggered update for experiment package com.google.android.finsky.regular.
+06-21 15:14:07.082 24840 25110 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+06-21 15:14:07.087 18990 19036 I BugleRcsProvisioning: RcsProvisioningTrigger: Schedule provisioning on app startup
+06-21 15:14:07.088 18990 19036 W BugleRcsEngine: [239501] axxd.b: [SR]: Single Registration is disabled. Skipping Single Registration capability check for subId: 1
+06-21 15:14:07.089 18990 19036 I BugleRcsProvisioning: RcsProvisioningTrigger: DR is active, initializing DR provisioning. DUAL_REG
+06-21 15:14:07.090 18990 19036 W BugleRcsEngine: [239501] axxd.b: [SR]: Single Registration is disabled. Skipping Single Registration capability check for subId: 1
+06-21 15:14:07.091 18990 19036 E TraceManager: Duplicate trace
+06-21 15:14:07.091 18990 19036 E TraceManager: bohm: Starting new trace SharedStorageProvider#call when already associated with a trace. For more help, see http://go/tiktok-tracing#fixing-duplicate-trace-issues
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at bolb.g(PG:6)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at bolb.c(PG:2)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at bolb.b(PG:2)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at boko.j(PG:1)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at acgt.call(PG:7)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at android.content.ContentProvider.call(ContentProvider.java:2471)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at acfh.call(PG:2)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at android.content.ContentProvider$Transport.call(ContentProvider.java:517)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at android.content.ContentResolver.call(ContentResolver.java:2433)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at android.content.ContentResolver.call(ContentResolver.java:2413)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at azbb.h(PG:9)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at azbb.k(PG:3)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at azaz.b(PG:1)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at ayhc.d(PG:2)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at sfv.run(PG:10)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at bolm.run(PG:2)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at bsyf.a(PG:1)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at bsxh.run(PG:4)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at bsyg.run(PG:1)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at bcwb.run(PG:1)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at bcvf.run(PG:2)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at bcvm.run(PG:4)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	at java.lang.Thread.run(Thread.java:923)
+06-21 15:14:07.091 18990 19036 E TraceManager: 	Suppressed: bomf:
+06-21 15:14:07.091 18990 19036 E TraceManager: 		at tk_trace.RcsProvisioningStartupTask(Unknown Source:0)
+06-21 15:14:07.091 18990 19036 E TraceManager: 		at tk_trace.StartupHandlerImpl#onAppInteractiveInternal(Unknown Source:0)
+06-21 15:14:07.091 18990 19036 E TraceManager: 		at tk_trace.StartupHandlerImpl App Interactive Delay Timer Fired(Unknown Source:0)
+06-21 15:14:07.092 18990 19024 I BugleNetwork: Startup: registering tachyon.
+06-21 15:14:07.104 18990 19024 I BugleNetwork: Startup: registering tachyon for phone.
+06-21 15:14:07.111 18990 19036 I BugleRcsEngine: [239501] sfx.k: Scheduled provisioning task with 0 seconds delay, KEEP policy
+06-21 15:14:07.117 18990 19094 E TraceManager: Duplicate trace
+06-21 15:14:07.117 18990 19094 E TraceManager: bohm: Starting new trace SharedStorageProvider#call when already associated with a trace. For more help, see http://go/tiktok-tracing#fixing-duplicate-trace-issues
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at bolb.g(PG:6)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at bolb.c(PG:2)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at bolb.b(PG:2)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at boko.j(PG:1)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at acgt.call(PG:7)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at android.content.ContentProvider.call(ContentProvider.java:2471)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at acfh.call(PG:2)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at android.content.ContentProvider$Transport.call(ContentProvider.java:517)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at android.content.ContentResolver.call(ContentResolver.java:2433)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at android.content.ContentResolver.call(ContentResolver.java:2413)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at azbb.h(PG:9)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at azbb.k(PG:3)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at azaz.b(PG:1)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at ahdw.aE(PG:5)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at ahdw.K(PG:2)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at afom.e(PG:1)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at afqp.call(Unknown Source:2)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at bonj.a(PG:1)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at bolp.a(PG:2)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at bsye.a(PG:1)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at bsxh.run(PG:4)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at bsyg.run(PG:1)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at bcwb.run(PG:1)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at bcvd.run(PG:2)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at bcvm.run(PG:4)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	at java.lang.Thread.run(Thread.java:923)
+06-21 15:14:07.117 18990 19094 E TraceManager: 	Suppressed: bomf:
+06-21 15:14:07.117 18990 19094 E TraceManager: 		at tk_trace.TachyonBackgroundStartupTask(Unknown Source:0)
+06-21 15:14:07.117 18990 19094 E TraceManager: 		at tk_trace.StartupHandlerImpl#onAppInteractiveInternal(Unknown Source:0)
+06-21 15:14:07.117 18990 19094 E TraceManager: 		at tk_trace.StartupHandlerImpl App Interactive Delay Timer Fired(Unknown Source:0)
+06-21 15:14:07.126   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService and for client com.google.android.apps.messaging
+06-21 15:14:07.127   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerServiceare :8
+06-21 15:14:07.127   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.apps.messagingare :5
+06-21 15:14:07.130 18990 19094 I BugleRcsEngine: [239510] axeq.l: Reinitialize CSLib Flags: com.google.android.ims.library
+06-21 15:14:07.137 18990 19094 I BugleRcsEngine: [239510] axeq.l: Reinitialize CSLib Flags: com.google.android.ims.library
+06-21 15:14:07.142 19257 19802 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+06-21 15:14:07.151 18990 19094 I BugleRcsEngine: [239510] axeq.l: Reinitialize CSLib Flags: com.google.android.ims.library
+06-21 15:14:07.152 18990 19094 I BugleRcsEngine: [239510] axeq.l: Reinitialize CSLib Flags: com.google.android.ims.library
+06-21 15:14:07.154 18990 19381 I BugleMDD: MddBackgroundStartupTask: Scheduled MDD periodic tasks.
+06-21 15:14:07.164 18990 19094 I BugleRcsEngine: [239510] axeq.l: Reinitialize CSLib Flags: com.google.android.ims.library
+06-21 15:14:07.165 18990 19094 I BugleRcsEngine: [239510] axeq.l: Reinitialize CSLib Flags: com.google.android.ims.library
+06-21 15:14:07.166 18990 19103 I BugleNetwork: TachyonPhoneRegistration: Ensuring Tachyon phone registration
+06-21 15:14:07.172 18990 19035 E TraceManager: Duplicate trace
+06-21 15:14:07.172 18990 19035 E TraceManager: bohm: Starting new trace SharedStorageProvider#call when already associated with a trace. For more help, see http://go/tiktok-tracing#fixing-duplicate-trace-issues
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at bolb.g(PG:6)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at bolb.c(PG:2)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at bolb.b(PG:2)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at boko.j(PG:1)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at acgt.call(PG:7)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at android.content.ContentProvider.call(ContentProvider.java:2471)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at acfh.call(PG:2)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at android.content.ContentProvider$Transport.call(ContentProvider.java:517)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at android.content.ContentResolver.call(ContentResolver.java:2433)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at android.content.ContentResolver.call(ContentResolver.java:2413)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at azbb.h(PG:9)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at azbb.k(PG:3)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at azaz.b(PG:1)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at ahdw.aE(PG:5)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at ahdw.K(PG:2)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at afom.e(PG:1)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at afnz.call(Unknown Source:2)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at bolo.call(PG:2)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at bsyf.a(PG:1)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at bsxh.run(PG:4)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at bsyg.run(PG:1)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at bcvf.run(PG:2)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at bcvm.run(PG:4)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	at java.lang.Thread.run(Thread.java:923)
+06-21 15:14:07.172 18990 19035 E TraceManager: 	Suppressed: bomf:
+06-21 15:14:07.172 18990 19035 E TraceManager: 		at tk_trace.TachyonBackgroundStartupTask(Unknown Source:0)
+06-21 15:14:07.172 18990 19035 E TraceManager: 		at tk_trace.StartupHandlerImpl#onAppInteractiveInternal(Unknown Source:0)
+06-21 15:14:07.172 18990 19035 E TraceManager: 		at tk_trace.StartupHandlerImpl App Interactive Delay Timer Fired(Unknown Source:0)
+06-21 15:14:07.177 26036 26036 I Wear_Controller: Wearable module requires a companion app to be installed.
+06-21 15:14:07.177 26036 26036 I WearableService: onCreate: Wearable Services not starting. Wear is not available on this device.
+06-21 15:14:07.184 26036 28321 W WearableService: onGetService: Wear is not available on this device.
+06-21 15:14:07.185 18990 19035 I BugleRcsEngine: [239500] axeq.l: Reinitialize CSLib Flags: com.google.android.ims.library
+06-21 15:14:07.204 18990 19035 I chatty  : uid=10197(com.google.android.apps.messaging) BG Thread #5 identical 4 lines
+06-21 15:14:07.205 18990 19035 I BugleRcsEngine: [239500] axeq.l: Reinitialize CSLib Flags: com.google.android.ims.library
+06-21 15:14:07.218 18990 19027 I Bugle   : VerifiedSmsEnabledCheckerImpl: VSMS is disabled via Phenotype flag.
+06-21 15:14:07.220   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:07.220   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:07.220   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:07.220   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:07.220   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:07.220   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:07.220   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:07.221  1705  1900 D ArtManagerInternalImpl: /data/misc/iorapd/com.example.dogglers/1/com.example.dogglers.VerticalListActivity/compiled_traces/compiled_trace.pb doesn't exist
+06-21 15:14:07.223  1705  1869 D EventSequenceValidator: onActivityLaunchFinished during UNKNOWN.
+06-21 15:14:07.223  1705  1869 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+06-21 15:14:07.223  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+06-21 15:14:07.223  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onActivityLaunchFinished(EventSequenceValidator.java:185)
+06-21 15:14:07.223  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnActivityLaunchFinished(LaunchObserverRegistryImpl.java:175)
+06-21 15:14:07.223  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$QcawcFcJtEX4EhYptq_Vb4j368Y(Unknown Source:0)
+06-21 15:14:07.223  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$QcawcFcJtEX4EhYptq_Vb4j368Y.accept(Unknown Source:10)
+06-21 15:14:07.223  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+06-21 15:14:07.223  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+06-21 15:14:07.223  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+06-21 15:14:07.223  1705  1869 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+06-21 15:14:07.223  1705  1869 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-21 15:14:07.223  1705  1869 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:236)
+06-21 15:14:07.223  1705  1869 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-21 15:14:07.223  1705  1869 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:45)
+06-21 15:14:07.223 18990 19035 I Bugle   : VerifiedSmsStartupTask: Checking if Verified SMS tasks should be enqueued. feature supported: false, feature enabled: false, eligible / has registered key: false, C11N: false
+06-21 15:14:07.224 18990 19035 I Bugle   : VerifiedSmsStartupTask: Not enqueuing VSMS periodic task, VSMS is disabled or not supported.
+06-21 15:14:07.224  1705  1869 D EventSequenceValidator: dec AccIntentStartedEvents to 7
+06-21 15:14:07.224  1705  1900 I ActivityTaskManager: Displayed com.example.dogglers/.VerticalListActivity: +586ms
+06-21 15:14:07.225 18990 19095 I Bugle   : VerifiedSmsStartupTask: Not calling C11N to get phone numbers.
+06-21 15:14:07.225   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:07.226   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:07.227   972   972 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:07.227  1705  4409 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{dcc25ac mode=1 rootTaskId=6358 u0 com.example.dogglers/com.example.dogglers.VerticalListActivity}(1,1)
+06-21 15:14:07.227   972   972 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:07.227   972   972 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.example.dogglers feature:AppClassifier feedback = 0
+06-21 15:14:07.231  1705  1870 D WindowManager: trim threaded renderer complete
+06-21 15:14:07.249   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:07.250   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:07.250   972   972 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:07.250   972   972 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:07.250   972   972 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.example.dogglers feature:AppClassifier feedback = 0
+06-21 15:14:07.291  7791 19797 W adbd    : timed out while waiting for FUNCTIONFS_BIND, trying again
+06-21 15:14:07.291  7791 19797 I adbd    : UsbFfs: connection terminated: monitor thread finished
+06-21 15:14:07.292  7791  7791 I adbd    : UsbFfs: already offline
+06-21 15:14:07.292  7791  7791 I adbd    : destroying transport UsbFfs
+06-21 15:14:07.292  7791  7791 I adbd    : UsbFfsConnection being destroyed
+06-21 15:14:07.301 21865 21865 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+06-21 15:14:07.303 21865 21865 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2116 checkRepeatedly = false, unlocked = true
+06-21 15:14:07.303 21865 21865 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1923 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.dogglers fieldId=-1 fieldName=null extras=null}, false)
+06-21 15:14:07.304 21865 21865 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2116 checkRepeatedly = true, unlocked = true
+06-21 15:14:07.317 19732 19732 I ViewInteraction: Performing 'scroll RecyclerView to position: 5' action on view view.getId() is <2131231206/com.example.dogglers:id/vertical_recycler_view>
+06-21 15:14:07.351 10194 10229 D NetworkController.MobileSignalController(1): onSignalStrengthsChanged signalStrength=SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 miuiLevel=0 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 miuiLevel=0 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 miuiLevel=0 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 miuiLevel=0 level=0,mLte=CellSignalStrengthLte: rssi=-65 rsrp=-94 rsrq=-10 rssnr=10 cqi=2147483647 ta=2147483647 miuiLevel=5 level=4 parametersUseForLevel=0,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 miuiLevel = 0 level = 0 parametersUseForLevel = 0 },primary=CellSignalStrengthLte} level=4
+06-21 15:14:07.351 10194 10229 D NetworkController.MobileSignalController(1): updateTelephonySignalStrength: hasService=true ss=SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 miuiLevel=0 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 miuiLevel=0 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 miuiLevel=0 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 miuiLevel=0 level=0,mLte=CellSignalStrengthLte: rssi=-65 rsrp=-94 rsrq=-10 rssnr=10 cqi=2147483647 ta=2147483647 miuiLevel=5 level=4 parametersUseForLevel=0,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 miuiLevel = 0 level = 0 parametersUseForLevel = 0 },primary=CellSignalStrengthLte} displayInfo=TelephonyDisplayInfo {network=LTE, override=NONE}
+06-21 15:14:07.351 10194 10229 D NetworkController.MobileSignalController(1): NotQcom5G, signal level = 5
+06-21 15:14:07.356  7791  7798 I adbd    : opening control endpoint /dev/usb-ffs/adb/ep0
+06-21 15:14:07.358  7791  7798 I adbd    : UsbFfsConnection constructed
+06-21 15:14:07.359  7791 19840 I adbd    : UsbFfs-monitor thread spawned
+06-21 15:14:07.402   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.inputmethod.latin
+06-21 15:14:07.402   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.chimera.PersistentDirectBootAwareApiServiceafter removal is 9
+06-21 15:14:07.402   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.inputmethod.latinafter removal is 1
+06-21 15:14:07.412   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 5
+06-21 15:14:07.412   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 5
+06-21 15:14:07.478 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a2d4ae2 in: STOPPED
+06-21 15:14:07.478 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a2d4ae2
+06-21 15:14:07.481   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 6
+06-21 15:14:07.481   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 6
+06-21 15:14:07.488 19732 19732 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Bella"
+06-21 15:14:07.493 18990 19023 I BugleRcsProvisioning: BugleSystemBindingManager: onBuglePhenotypeFlagChanged
+06-21 15:14:07.493 18990 19023 I BugleRcsProvisioning: BugleSystemBindingManager: onCsLibPhenotypeUpdated
+06-21 15:14:07.496  1705  4477 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.miservice, com.xiaomi.calendar, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.miui.video, com.miui.videoplayer, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.mi.android.globallauncher-poco, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi, com.tencent.tetris, com.sukhavati.gotoplaying.bubble.BubbleShooter.mint, com.block.puzzle.game.hippo.mi, com.youzu.bs.mi, com.baidu.BaiduMap, com.google.android.googlequicksearchbox, com.appsomniacs.da2, com.android.stk, com.feiyu.carrot3.mi, com.popcap.pvz2cthdxm, com.mxtech.videoplayer.ad, cn.cisc, com.kiloo.subwaysurf, com.cncyj.mostbrain, pdf.tap.scanner, com.og.ttddz.mi, com.ximalaya.ting.lite, com.google.android.apps.podcasts, com.google.android.apps.googleassistant, com.netease.onmyoji.mi, com.netease.onmyoji.bili, com.netease.mrzh.mi, com.netease.mrzh.bili, com.tencent.tmgp.yys.zqb, com.google.android.gm, com.google.android.calendar, com.android.chrome, com.google.android.apps.youtube.music, com.netease.pes.huawei, com.netease.pes.mi, com.netease.pes.bili, com.flyfish.supermario, com.picsart.studio, com.netease.dwrg.mi, com.netease.dwrg.bili, com.netease.dwrg.nearme.gamecenter, com.netease.dwrg, com.netease.dwrg.huawei, com.tencent.tmgp.dwrg, com.netease.dwrg.m4399, com.netease.dwrg.mz, com.netease.dwrg.aligames, com.netease.dwrg.baidu, com.netease.dwrg.qihoo, com.moji.mjweather, com.tencent.tmgp.kof98, com.netease.onmyoji, com.taobao.idlefish, com.ledou.mhhy.mi, com.hzfy.ddzbs.mi, com.qsmy.walkmonkey, com.fy.bzzbc.mi, com.dw.xprqj.mi, com.miui.accessibility, com.ymt.nbaftx.mi]
+06-21 15:14:07.496  1705  1869 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }
+06-21 15:14:07.496  1705  1869 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+06-21 15:14:07.496  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+06-21 15:14:07.496  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+06-21 15:14:07.496  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+06-21 15:14:07.496  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+06-21 15:14:07.496  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+06-21 15:14:07.496  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+06-21 15:14:07.496  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+06-21 15:14:07.496  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+06-21 15:14:07.496  1705  1869 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+06-21 15:14:07.496  1705  1869 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-21 15:14:07.496  1705  1869 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:236)
+06-21 15:14:07.496  1705  1869 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-21 15:14:07.496  1705  1869 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:45)
+06-21 15:14:07.496  1705  1869 D EventSequenceValidator: inc AccIntentStartedEvents to 8
+06-21 15:14:07.497   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-21 15:14:07.497   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-21 15:14:07.497   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:07.497   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:07.497   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:07.497   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:07.498   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:07.498   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:07.498   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:07.498   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:07.498   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:07.503 18990 19023 I BugleRcsEngine: [239491] aoap.b: SystemBindingManager: force P/H Flag update scheduled and start updateBinding
+06-21 15:14:07.505 18990 19103 I BugleTransport: isChatAvailable: RcsAvailability is AVAILABLE (RCS is setup)
+06-21 15:14:07.506 18990 19381 E TraceManager: Duplicate trace
+06-21 15:14:07.506 18990 19381 E TraceManager: bohm: Starting new trace SharedStorageProvider#call when already associated with a trace. For more help, see http://go/tiktok-tracing#fixing-duplicate-trace-issues
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at bolb.g(PG:6)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at bolb.c(PG:2)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at bolb.b(PG:2)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at boko.j(PG:1)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at acgt.call(PG:7)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at android.content.ContentProvider.call(ContentProvider.java:2471)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at acfh.call(PG:2)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at android.content.ContentProvider$Transport.call(ContentProvider.java:517)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at android.content.ContentResolver.call(ContentResolver.java:2433)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at android.content.ContentResolver.call(ContentResolver.java:2413)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at azbb.h(PG:9)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at azbb.k(PG:3)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at azaz.b(PG:1)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at ahdw.aE(PG:5)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at ahdw.K(PG:2)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at afom.e(PG:1)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at afoi.call(Unknown Source:2)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at bonj.a(PG:1)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at bolp.a(PG:2)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at bsye.a(PG:1)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at bsxh.run(PG:4)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at bsyg.run(PG:1)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at bcwb.run(PG:1)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at bcvd.run(PG:2)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at bcvm.run(PG:4)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	at java.lang.Thread.run(Thread.java:923)
+06-21 15:14:07.506 18990 19381 E TraceManager: 	Suppressed: bomf:
+06-21 15:14:07.506 18990 19381 E TraceManager: 		at tk_trace.PhenotypeHelper#onBuglePhenotypeChanged(Unknown Source:0)
+06-21 15:14:07.506 18990 19381 E TraceManager: 		at tk_trace.PhenotypeHelper#registerPhenotype(Unknown Source:0)
+06-21 15:14:07.506 18990 19381 E TraceManager: 		at tk_trace.PhenotypeRestoreStartupTask(Unknown Source:0)
+06-21 15:14:07.506 18990 19381 E TraceManager: 		at tk_trace.StartupHandlerImpl#onAppInteractiveInternal(Unknown Source:0)
+06-21 15:14:07.506 18990 19381 E TraceManager: 		at tk_trace.StartupHandlerImpl App Interactive Delay Timer Fired(Unknown Source:0)
+06-21 15:14:07.506 18990 19094 I BugleRcsEngine: [239510] ayip.b: Using MCC based URL
+06-21 15:14:07.506  1705  4477 D CompatibilityInfo: mCompatibilityFlags - 0
+06-21 15:14:07.507  1705  4477 D CompatibilityInfo: applicationDensity - 440
+06-21 15:14:07.507  1705  4477 D CompatibilityInfo: applicationScale - 1.0
+06-21 15:14:07.508   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:07.508   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:07.509   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:07.509   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:07.509   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:07.509   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:07.509   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:07.509   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:07.509   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:07.509   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:07.509   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:07.509   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:07.511  1705  4477 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+06-21 15:14:07.511   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:07.511   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:07.511   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:07.511   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:07.515   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-21 15:14:07.515   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-21 15:14:07.515   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:07.515   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:07.515   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:07.515   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:07.515   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:07.515   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:07.515   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:07.518 18990 19381 I BugleRcsEngine: [239524] axeq.l: Reinitialize CSLib Flags: com.google.android.ims.library
+06-21 15:14:07.519 18990 19381 I BugleRcsEngine: [239524] axeq.l: Reinitialize CSLib Flags: com.google.android.ims.library
+06-21 15:14:07.519 19732 19732 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@9a75a63 in: PAUSED
+06-21 15:14:07.520  1705  1869 D EventSequenceValidator: onIntentFailed during UNKNOWN.
+06-21 15:14:07.520  1705  1869 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+06-21 15:14:07.520  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+06-21 15:14:07.520  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentFailed(EventSequenceValidator.java:130)
+06-21 15:14:07.520  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentFailed(LaunchObserverRegistryImpl.java:147)
+06-21 15:14:07.520  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$KukKmVpn5W_1xSV6Dnp8wW2H2Ks(Unknown Source:0)
+06-21 15:14:07.520  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$KukKmVpn5W_1xSV6Dnp8wW2H2Ks.accept(Unknown Source:2)
+06-21 15:14:07.520  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:264)
+06-21 15:14:07.520  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+06-21 15:14:07.520  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+06-21 15:14:07.520  1705  1869 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+06-21 15:14:07.520  1705  1869 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-21 15:14:07.520  1705  1869 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:236)
+06-21 15:14:07.520  1705  1869 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-21 15:14:07.520  1705  1869 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:45)
+06-21 15:14:07.521  1705  1869 D EventSequenceValidator: dec AccIntentStartedEvents to 7
+06-21 15:14:07.521 19732 19732 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.dogglers.VerticalListActivity@9a75a63
+06-21 15:14:07.522   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-21 15:14:07.523   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:07.523   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-21 15:14:07.523   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:07.523   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:07.523   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:07.523   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:07.523   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:07.523   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:07.523   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:07.523   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:07.524   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:07.524   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:07.524   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:07.525   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:07.525   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:07.525   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:07.525   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:07.526   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:07.526   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:07.526   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-21 15:14:07.526   972  1014 I ANDR-PERF-LM: hintType: 102
+06-21 15:14:07.526   972  1014 I ANDR-PERF-LM: isPrimary = 0
+06-21 15:14:07.526   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.example.dogglers,19732,1705,4492)
+06-21 15:14:07.526   972  1014 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-21 15:14:07.526   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:07.526   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:07.526   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:07.526  1705  4492 D CompatibilityInfo: mCompatibilityFlags - 0
+06-21 15:14:07.527  1705  4492 D CompatibilityInfo: applicationDensity - 440
+06-21 15:14:07.527  1705  4492 D CompatibilityInfo: applicationScale - 1.0
+06-21 15:14:07.528   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:07.528   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:07.531 18990 19381 I BugleRcsEngine: [239524] axeq.l: Reinitialize CSLib Flags: com.google.android.ims.library
+06-21 15:14:07.532 18990 19027 I BugleRcsEngine: [239494] awok.run: SystemBindingManager: SystemBinding enabled: true
+06-21 15:14:07.532 18990 19027 I BugleRcsEngine: [239494] awol.b: System Binding updated
+06-21 15:14:07.532 18990 19381 I BugleRcsEngine: [239524] axeq.l: Reinitialize CSLib Flags: com.google.android.ims.library
+06-21 15:14:07.532 18990 19098 I BugleRcsEngine: [239512] ayip.b: Using MCC based URL
+06-21 15:14:07.539  1705  4492 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{dcc25ac mode=1 rootTaskId=6358 u0 com.example.dogglers/com.example.dogglers.VerticalListActivity}(1,1)  to null(0,0)
+06-21 15:14:07.543 18990 19381 I BugleRcsEngine: [239524] axeq.l: Reinitialize CSLib Flags: com.google.android.ims.library
+06-21 15:14:07.544 18990 19381 I BugleRcsEngine: [239524] axeq.l: Reinitialize CSLib Flags: com.google.android.ims.library
+06-21 15:14:07.545 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@800b82f in: PRE_ON_CREATE
+06-21 15:14:07.545 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@800b82f
+06-21 15:14:07.546 18990 19035 E TraceManager: Duplicate trace
+06-21 15:14:07.546 18990 19035 E TraceManager: bohm: Starting new trace SharedStorageProvider#call when already associated with a trace. For more help, see http://go/tiktok-tracing#fixing-duplicate-trace-issues
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at bolb.g(PG:6)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at bolb.c(PG:2)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at bolb.b(PG:2)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at boko.j(PG:1)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at acgt.call(PG:7)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at android.content.ContentProvider.call(ContentProvider.java:2471)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at acfh.call(PG:2)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at android.content.ContentProvider$Transport.call(ContentProvider.java:517)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at android.content.ContentResolver.call(ContentResolver.java:2433)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at android.content.ContentResolver.call(ContentResolver.java:2413)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at azbb.h(PG:9)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at azbb.k(PG:3)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at azaz.b(PG:1)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at ayhc.g(PG:2)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at sfh.b(PG:1)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at ayen.f(PG:4)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at ayen.c(PG:1)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at akxy.f(PG:12)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at akxy.e(PG:7)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at akxn.a(PG:3)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at bolp.a(PG:2)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at bsvn.a(PG:1)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at bsxh.run(PG:4)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at bcwb.run(PG:1)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at bcvf.run(PG:2)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at bcvm.run(PG:4)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	at java.lang.Thread.run(Thread.java:923)
+06-21 15:14:07.546 18990 19035 E TraceManager: 	Suppressed: bomf:
+06-21 15:14:07.546 18990 19035 E TraceManager: 		at tk_trace.PhenotypeHelper#onBuglePhenotypeChanged(Unknown Source:0)
+06-21 15:14:07.546 18990 19035 E TraceManager: 		at tk_trace.PhenotypeHelper#registerPhenotype(Unknown Source:0)
+06-21 15:14:07.546 18990 19035 E TraceManager: 		at tk_trace.PhenotypeRestoreStartupTask(Unknown Source:0)
+06-21 15:14:07.546 18990 19035 E TraceManager: 		at tk_trace.StartupHandlerImpl#onAppInteractiveInternal(Unknown Source:0)
+06-21 15:14:07.546 18990 19035 E TraceManager: 		at tk_trace.StartupHandlerImpl App Interactive Delay Timer Fired(Unknown Source:0)
+06-21 15:14:07.548 18990 19035 I BugleTransport: isChatAvailable: true, enabledTransport: 2
+06-21 15:14:07.556 19732 19732 D DecorView[]: getWindowModeFromSystem  windowmode is 1
+06-21 15:14:07.556 19732 19732 D DecorView: createDecorCaptionView windowingMode:1 mWindowMode 1 isFullscreen: true
+06-21 15:14:07.557 18990 19381 I RcsClientLib: Connecting RcsEngineLifecycleService
+06-21 15:14:07.560 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@800b82f in: CREATED
+06-21 15:14:07.561 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@800b82f
+06-21 15:14:07.563 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@800b82f in: STARTED
+06-21 15:14:07.564 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@800b82f
+06-21 15:14:07.567 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@800b82f in: RESUMED
+06-21 15:14:07.568 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@800b82f
+06-21 15:14:07.577 18990 19381 I RcsClientLib: shouldUseCarrierServicesJibeService: true, CarrierServices rcs service found: true
+06-21 15:14:07.581   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.ims/.services.RcsService and for client com.google.android.apps.messaging
+06-21 15:14:07.581   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.ims/.services.RcsServiceare :4
+06-21 15:14:07.581   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.apps.messagingare :5
+06-21 15:14:07.582 24840 24840 D RecentsImpl: mActivityStateObserver androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+06-21 15:14:07.582 18990 18990 I RcsClientLib: com.google.android.rcs.client.lifecycle.RcsEngineLifecycleService connected
+06-21 15:14:07.583 24840 25110 D GestureStubView: resetRenderProperty: showGestureStub
+06-21 15:14:07.583 24840 25110 D GestureStubView: showGestureStub
+06-21 15:14:07.583 24840 25110 D GestureStubView: resetRenderProperty: showGestureStub
+06-21 15:14:07.583 24840 25110 D GestureStubView: showGestureStub
+06-21 15:14:07.586 13977 27570 I CarrierServices: [170723] RcsEngineImpl.triggerStopRcsStack: Stop Registration for redacted-pii:phone_number[chars:13,last2:64]
+06-21 15:14:07.587 13977 14233 I CarrierServices: [170708] czq.handleMessage: RCS engine STOP RCS stack
+06-21 15:14:07.587 18990 19111 I RcsClientLib: Disconnecting RcsEngineLifecycleService
+06-21 15:14:07.588   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.ims/.services.RcsService and for client com.google.android.apps.messaging
+06-21 15:14:07.603 19257 19802 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+06-21 15:14:07.609 19257 19301 I Finsky  : [239524] pjp.c(1): Regular flags synced
+06-21 15:14:07.610 19257 19301 I Finsky  : [239524] pdp.j(3): Writing flags config, size 1.
+06-21 15:14:07.611 19257 19301 I Finsky  : [239524] pdp.j(3): Started writing experiment flags into file [KJuNqwxS2s04hZn-xqnHU2xwsDjo2nXP3Bc7gIw91P4].
+06-21 15:14:07.617 19257 19301 I Finsky  : [239524] pdp.j(17): Finished writing experiment flags into file [KJuNqwxS2s04hZn-xqnHU2xwsDjo2nXP3Bc7gIw91P4].
+06-21 15:14:07.619 24840 25110 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+06-21 15:14:07.621 19257 19301 I Finsky  : [239524] pjk.g(22): Successfully applied new configurations for package com.google.android.finsky.regular.
+06-21 15:14:07.622 19257 19302 W android.vendin: Long monitor contention with owner bgExecutor #2 (19301) at int pjk.h()(PG:8) waiters=1 in int pjk.h() for 1.095s
+06-21 15:14:07.622 19257 19302 I Finsky  : [239525] pjk.h(1): Triggered update for experiment package com.google.android.finsky.regular.
+06-21 15:14:07.630 24840 25110 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+06-21 15:14:07.639   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:07.639   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:07.639   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:07.639   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:07.640   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:07.640   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:07.640   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:07.641  1705  1900 I ActivityTaskManager: Displayed com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +143ms
+06-21 15:14:07.641   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:07.641   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:07.642   972   972 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:07.642   972   972 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:07.642   972   972 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.example.dogglers feature:AppClassifier feedback = 0
+06-21 15:14:07.651  1705  4409 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{5ad03f0 mode=1 rootTaskId=6358 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}(1,1)
+06-21 15:14:07.659 10194 10237 D MiuiPhoneStatusBarPolicy: updateManagedProfile: secondSpace = false
+06-21 15:14:07.664   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-21 15:14:07.664   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-21 15:14:07.665   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-21 15:14:07.666   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 8
+06-21 15:14:07.666   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 8
+06-21 15:14:07.674  1705  5178 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.miservice, com.xiaomi.calendar, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.miui.video, com.miui.videoplayer, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.mi.android.globallauncher-poco, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi, com.tencent.tetris, com.sukhavati.gotoplaying.bubble.BubbleShooter.mint, com.block.puzzle.game.hippo.mi, com.youzu.bs.mi, com.baidu.BaiduMap, com.google.android.googlequicksearchbox, com.appsomniacs.da2, com.android.stk, com.feiyu.carrot3.mi, com.popcap.pvz2cthdxm, com.mxtech.videoplayer.ad, cn.cisc, com.kiloo.subwaysurf, com.cncyj.mostbrain, pdf.tap.scanner, com.og.ttddz.mi, com.ximalaya.ting.lite, com.google.android.apps.podcasts, com.google.android.apps.googleassistant, com.netease.onmyoji.mi, com.netease.onmyoji.bili, com.netease.mrzh.mi, com.netease.mrzh.bili, com.tencent.tmgp.yys.zqb, com.google.android.gm, com.google.android.calendar, com.android.chrome, com.google.android.apps.youtube.music, com.netease.pes.huawei, com.netease.pes.mi, com.netease.pes.bili, com.flyfish.supermario, com.picsart.studio, com.netease.dwrg.mi, com.netease.dwrg.bili, com.netease.dwrg.nearme.gamecenter, com.netease.dwrg, com.netease.dwrg.huawei, com.tencent.tmgp.dwrg, com.netease.dwrg.m4399, com.netease.dwrg.mz, com.netease.dwrg.aligames, com.netease.dwrg.baidu, com.netease.dwrg.qihoo, com.moji.mjweather, com.tencent.tmgp.kof98, com.netease.onmyoji, com.taobao.idlefish, com.ledou.mhhy.mi, com.hzfy.ddzbs.mi, com.qsmy.walkmonkey, com.fy.bzzbc.mi, com.dw.xprqj.mi, com.miui.accessibility, com.ymt.nbaftx.mi]
+06-21 15:14:07.675  1705  1869 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }
+06-21 15:14:07.675  1705  1869 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+06-21 15:14:07.675  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+06-21 15:14:07.675  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+06-21 15:14:07.675  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+06-21 15:14:07.675  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+06-21 15:14:07.675  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+06-21 15:14:07.675  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+06-21 15:14:07.675  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+06-21 15:14:07.675  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+06-21 15:14:07.675  1705  1869 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+06-21 15:14:07.675  1705  1869 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-21 15:14:07.675  1705  1869 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:236)
+06-21 15:14:07.675  1705  1869 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-21 15:14:07.675  1705  1869 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:45)
+06-21 15:14:07.675  1705  1869 D EventSequenceValidator: inc AccIntentStartedEvents to 8
+06-21 15:14:07.677   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:07.677   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:07.677   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:07.677   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:07.677   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:07.677   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:07.677   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:07.677   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:07.677   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:07.678   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-21 15:14:07.678   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-21 15:14:07.686  1705  5178 D CompatibilityInfo: mCompatibilityFlags - 0
+06-21 15:14:07.686  1705  5178 D CompatibilityInfo: applicationDensity - 440
+06-21 15:14:07.686  1705  5178 D CompatibilityInfo: applicationScale - 1.0
+06-21 15:14:07.687   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:07.687   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:07.687   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:07.687   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:07.687   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:07.688   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:07.688   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:07.688   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:07.688   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:07.688   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:07.688   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:07.688   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:07.688  1705  5178 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+06-21 15:14:07.688   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-21 15:14:07.688   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:07.688   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:07.688   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:07.688   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:07.688   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:07.688   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:07.688   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:07.689   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:07.689   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:07.689   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:07.689   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:07.689   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-21 15:14:07.683 18729 18729 W TcmReceiver: type=1400 audit(0.0:3078741): avc: denied { write } for name="tcm" dev="tmpfs" ino=15177 scontext=u:r:theme:s0 tcontext=u:object_r:vendor_dpmtcm_socket:s0 tclass=sock_file permissive=0
+06-21 15:14:07.696  1705  1869 D EventSequenceValidator: onIntentFailed during UNKNOWN.
+06-21 15:14:07.696  1705  1869 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+06-21 15:14:07.696  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+06-21 15:14:07.696  1705  1869 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentFailed(EventSequenceValidator.java:130)
+06-21 15:14:07.696  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentFailed(LaunchObserverRegistryImpl.java:147)
+06-21 15:14:07.696  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$KukKmVpn5W_1xSV6Dnp8wW2H2Ks(Unknown Source:0)
+06-21 15:14:07.696  1705  1869 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$KukKmVpn5W_1xSV6Dnp8wW2H2Ks.accept(Unknown Source:2)
+06-21 15:14:07.696  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:264)
+06-21 15:14:07.696  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+06-21 15:14:07.696  1705  1869 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+06-21 15:14:07.696  1705  1869 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+06-21 15:14:07.696  1705  1869 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-21 15:14:07.696  1705  1869 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:236)
+06-21 15:14:07.696  1705  1869 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-21 15:14:07.696  1705  1869 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:45)
+06-21 15:14:07.696  1705  1869 D EventSequenceValidator: dec AccIntentStartedEvents to 7
+06-21 15:14:07.698   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:07.699   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:07.699   972   972 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:07.699   972   972 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:07.699   972   972 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.example.dogglers feature:AppClassifier feedback = 0
+06-21 15:14:07.715 19732 19732 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@9a75a63 in: STOPPED
+06-21 15:14:07.716 19732 19732 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.dogglers.VerticalListActivity@9a75a63
+06-21 15:14:07.718 19732 19732 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@9a75a63 in: DESTROYED
+06-21 15:14:07.718 19732 19732 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+06-21 15:14:07.731   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-21 15:14:07.732   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-21 15:14:07.740 21865 21865 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+06-21 15:14:07.741 21865 21865 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2116 checkRepeatedly = false, unlocked = true
+06-21 15:14:07.742 21865 21865 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1923 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.dogglers fieldId=-1 fieldName=null extras=null}, false)
+06-21 15:14:07.743 21865 21865 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2116 checkRepeatedly = true, unlocked = true
+06-21 15:14:07.744   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-21 15:14:07.744   982 10464 I chatty  : uid=1000(system) HwBinder:982_4 identical 1 line
+06-21 15:14:07.744   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-21 15:14:07.745   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 8
+06-21 15:14:07.745   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 8
+06-21 15:14:07.750 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@800b82f in: PAUSED
+06-21 15:14:07.750 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@800b82f
+06-21 15:14:07.751   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-21 15:14:07.752   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-21 15:14:07.752   982 10464 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:07.752   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:07.752   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:07.752   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:07.752   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:07.752   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:07.752   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:07.752   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:07.752   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:07.752   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:07.752   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:07.752   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:07.753   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:07.753   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:07.753   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:07.753   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:07.753   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:07.753   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-21 15:14:07.753   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-21 15:14:07.753   972  1014 I ANDR-PERF-LM: hintType: 102
+06-21 15:14:07.753   972  1014 I ANDR-PERF-LM: isPrimary = 0
+06-21 15:14:07.753   972  1014 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.example.dogglers,19732,1705,5349)
+06-21 15:14:07.753   972  1014 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-21 15:14:07.753   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-21 15:14:07.753   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:07.753   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:07.754  1705  5349 D CompatibilityInfo: mCompatibilityFlags - 0
+06-21 15:14:07.754  1705  5349 D CompatibilityInfo: applicationDensity - 440
+06-21 15:14:07.754  1705  5349 D CompatibilityInfo: applicationScale - 1.0
+06-21 15:14:07.755   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:07.755   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:07.762 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a2d4ae2 in: DESTROYED
+06-21 15:14:07.763 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a2d4ae2
+06-21 15:14:07.764   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-21 15:14:07.764   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-21 15:14:07.774  1705  5178 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{5ad03f0 mode=1 rootTaskId=6358 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}(1,1)  to null(0,0)
+06-21 15:14:07.778 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1373ca0 in: PRE_ON_CREATE
+06-21 15:14:07.778 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1373ca0
+06-21 15:14:07.785 19732 19732 D DecorView[]: getWindowModeFromSystem  windowmode is 1
+06-21 15:14:07.785 19732 19732 D DecorView: createDecorCaptionView windowingMode:1 mWindowMode 1 isFullscreen: true
+06-21 15:14:07.789 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1373ca0 in: CREATED
+06-21 15:14:07.790 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1373ca0
+06-21 15:14:07.792 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1373ca0 in: STARTED
+06-21 15:14:07.793 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1373ca0
+06-21 15:14:07.795 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1373ca0 in: RESUMED
+06-21 15:14:07.796 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1373ca0
+06-21 15:14:07.805 24840 24840 D RecentsImpl: mActivityStateObserver androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+06-21 15:14:07.807 24840 25110 D GestureStubView: resetRenderProperty: showGestureStub
+06-21 15:14:07.807 24840 25110 D GestureStubView: showGestureStub
+06-21 15:14:07.807 24840 25110 D GestureStubView: resetRenderProperty: showGestureStub
+06-21 15:14:07.807 24840 25110 D GestureStubView: showGestureStub
+06-21 15:14:07.825 24840 25110 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+06-21 15:14:07.833 24840 25110 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+06-21 15:14:07.844   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:07.844   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:07.844   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:07.844   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:07.844   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:07.844   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:07.844   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:07.845  1705  1900 I ActivityTaskManager: Displayed com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +170ms
+06-21 15:14:07.846   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:07.846   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:07.846   972   972 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:07.846   972   972 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:07.846   972   972 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.example.dogglers feature:AppClassifier feedback = 0
+06-21 15:14:07.850 10194 10237 D MiuiPhoneStatusBarPolicy: updateManagedProfile: secondSpace = false
+06-21 15:14:07.852  1705  4492 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{d88104d mode=1 rootTaskId=6358 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}(1,1)
+06-21 15:14:07.863 19257 19302 I Finsky  : [239525] pjk.h(7): Already at the latest configurations for experiment package com.google.android.finsky.regular.
+06-21 15:14:07.863 19257 19300 W android.vendin: Long monitor contention with owner bgExecutor #2 (19301) at int pjk.h()(PG:8) waiters=2 in int pjk.h() for 1.315s
+06-21 15:14:07.864 19257 19300 I Finsky  : [239523] pjk.h(1): Triggered update for experiment package com.google.android.finsky.regular.
+06-21 15:14:07.880   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:07.880   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:07.880   972   972 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:07.880   972   972 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:07.880   972   972 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.example.dogglers feature:AppClassifier feedback = 0
+06-21 15:14:07.884 19257 19302 I Finsky  : [239525] xzj.b(1): Restoring notifications
+06-21 15:14:07.894 19257 19302 I Finsky  : [239525] xzj.b(4): Done restoring notifications
+06-21 15:14:07.897 19257 19302 I Finsky  : [239525] fdt.run(7): Component class com.google.android.finsky.wearsupport.WearSupportService disabled via PackageManager.
+06-21 15:14:07.898 19257 19302 I Finsky  : [239525] fdt.run(7): Component class com.google.android.finsky.wearsupport.WearChangeListenerService disabled via PackageManager.
+06-21 15:14:07.900 19257 19302 I Finsky  : [239525] par.n(8): Invalidating cached PackageState for com.android.vending
+06-21 15:14:07.903   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-21 15:14:07.903   982  1015 I chatty  : uid=1000(system) HwBinder:982_1 identical 1 line
+06-21 15:14:07.904   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-21 15:14:07.904   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 8
+06-21 15:14:07.905   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 8
+06-21 15:14:07.911 19257 19498 I Finsky  : [239571] jrb.run(39): Wrote row to frosting DB: 12788
+06-21 15:14:07.925  1705  4492 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+06-21 15:14:07.925   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:07.925   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:07.925   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:07.925   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:07.925   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:07.925   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:07.925   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:07.925   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-21 15:14:07.925   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:07.925   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:07.925   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:07.926   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-21 15:14:07.926   982  1015 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-21 15:14:07.931 24840 24840 D EventBus: No subscribers registered for event class com.miui.home.recents.messages.TaskSnapshotChangedEvent
+06-21 15:14:07.931 24840 24840 D EventBus: No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+06-21 15:14:07.941  1705  5178 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{d88104d mode=1 rootTaskId=6358 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}(1,1)  to null(0,0)
+06-21 15:14:07.951 15582 15627 I BtGatt.ScanManager: msg.what = 6
+06-21 15:14:07.951  1705  2318 I MiuiNetworkPolicy: updateUidState uid = 10186, uidState = 3
+06-21 15:14:07.951  1705  2318 I MiuiNetworkPolicy: updateUidState uid = 10095, uidState = 2
+06-21 15:14:07.951 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@800b82f in: STOPPED
+06-21 15:14:07.953 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@800b82f
+06-21 15:14:07.959 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@800b82f in: DESTROYED
+06-21 15:14:07.967 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@800b82f
+06-21 15:14:07.984 19732 19732 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1373ca0 in: PAUSED
+06-21 15:14:07.985 19732 19732 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1373ca0
+06-21 15:14:07.987   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-21 15:14:07.987   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-21 15:14:07.989   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-21 15:14:07.989   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-21 15:14:07.989   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 5
+06-21 15:14:07.989   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 5
+06-21 15:14:07.990   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:07.990   972   972 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-21 15:14:07.990   972   972 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-21 15:14:07.990   972   972 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-21 15:14:07.990   972   972 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-21 15:14:07.990   972  1014 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-21 15:14:07.990   972  1014 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-21 15:14:07.990   972  1014 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-21 15:14:07.990   972  1014 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-21 15:14:07.990   972  1014 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-21 15:14:07.990   972  1014 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-21 15:14:07.990   972  1014 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-21 15:14:07.996   982 10879 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-21 15:14:07.997  3914  3959 D AutoInstallService: onForegroundInfoChanged: com.mi.android.globallauncher
+06-21 15:14:07.997  6642  6763 I ThermalInfoCollector: collectForgroundAppsInfo
+06-21 15:14:07.997 20234 20251 I GST     : forePkg: com.mi.android.globallauncher, preForePkg: com.example.dogglers
+06-21 15:14:07.998 24924 25140 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.mi.android.globallauncher', mForegroundUid=10095, mForegroundPid=24840, mLastForegroundPackageName='com.example.dogglers', mLastForegroundUid=10387, mLastForegroundPid=19732, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-21 15:14:07.999  6642 15062 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.mi.android.globallauncher', mForegroundUid=10095, mForegroundPid=24840, mLastForegroundPackageName='com.example.dogglers', mLastForegroundUid=10387, mLastForegroundPid=19732, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-21 15:14:07.999 24924 25140 I GameBoosterService: onForegroundInfoChanged: Cur=com.mi.android.globallauncher	 last=com.example.dogglers
+06-21 15:14:08.000 24924 25140 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.mi.android.globallauncher', mForegroundUid=10095, mForegroundPid=24840, mLastForegroundPackageName='com.example.dogglers', mLastForegroundUid=10387, mLastForegroundPid=19732, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-21 15:14:08.000 24924 25140 I GameBoosterService: onForegroundInfoChanged: Exit
+06-21 15:14:08.000 24924 25140 I VideoBoxUtils: isSupportVideoBox: true
+06-21 15:14:08.000 24924 25140 I VideoToolBoxService: onForegroundInfoChanged: Exit Vtb
+06-21 15:14:08.002 19732 19756 I TestRunner: finished: vertical_scroll_content_at_last_position(com.example.dogglers.VerticalListTests)
